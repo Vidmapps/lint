@@ -1,0 +1,15 @@
+{
+  "name": "p1_lint",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Vidma",
+  "license": "ISC",
+  "dependencies": {
+    "jQuery": "^1.7.4",
+    "jsdom": "^16.1.0"
+  }
+}
