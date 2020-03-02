@@ -5,9 +5,11 @@
         <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
         <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css">
         <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="media.css">
+        <link rel="stylesheet" href="partials.css">
     </head>
     <body>
-        <div class="header">
+        <section class="header container">
             <div class="left">
                 <img src="img/logo.svg" class="logo">
                 <img src="img/menu.svg" class="menu hover-color">
@@ -25,36 +27,44 @@
                         class="avatar">
                 </div>
             </div>
-        </div>
-            <div class="navigation">
-                <div class="nav-content">
-                    <div class="block">
+        </section>
+
+             <nav class="navigation">
+                <ul class="nav-content">
+                    <div class="burger">
+                        <div class="line1"></div>
+                        <div class="line2"></div>
+                        <div class="line3"></div>
+                    </div>
+                    <li class="block">
                         <div class="nav-links hover-color">Dashboard
                                 <div class="rectangle"></div>
                         </div>
-                    </div>
-                    <div class="block">
+                    </li>
+                    <li class="block">
                         <div class="nav-links hover-color">Projects
                                 <div class="rectangle"></div>
                         </div>
-                    </div>
-                    <div class="block">
+                    </li>
+                    <li class="block">
                         <div class="nav-links hover-color">Invoices
                                 <div class="rectangle"></div>
                         </div>
-                    </div>
-                    <div class="block">
+                    </li>
+                    <li class="block">
                         <div class="nav-links hover-color">Documents
                                 <br><div class="rectangle"></div>
                         </div>
-                    </div>
-                    <div class="block">
+                    </li>
+                    <li class="block">
                         <div class="nav-links hover-color">Settings
                                 <div class="rectangle"></div>
                         </div>
-                    </div>                                                      
-                </div>
-            </div>
+                    </li>                                                      
+                </ul>
+                
+            </nav>
+           
             <div class="overview">
                 <div class="overview-name">
                     <div class="left">
@@ -104,6 +114,7 @@
                         </div>
                     </div>
                 </div>
+                 
                 <div class="projection">
                     <div class="line1">
                         <div class="name">Projection</div>
@@ -121,6 +132,7 @@
                             </div>
                         </div>
                     </div>
+                    
                     <div class="table">
                             <div id="chartContainer" style="height: 300px; width: 100%;"></div>
                             <div class="hider"></div>
@@ -128,6 +140,7 @@
 
                         </div>
                     </div>
+                    
                 </div>
                 <div class="stats2">
                     <div class="wrapper">
@@ -179,7 +192,7 @@
             </div>
             <div class="footer">
         
-        </div>
+        </div> 
 
 
 

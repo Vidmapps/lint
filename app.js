@@ -1,3 +1,22 @@
+const navSlide = () => {
+    const burger = document.querySelector('.burger');
+    const navigation = document.querySelector('.navigation');
+    //const block = document.querySelectorAll('li.block');
+
+    burger.addEventListener('click', () => {
+        navigation.classList.toggle('navigation-active');
+      //  block.forEach(item => {
+        //    item.classList.toggle('block-active');
+        //});
+    });
+}
+
+navSlide();
+
+
+
+//// CHART 1 ///////
+
 window.onload = function () {
                 
     var chart = new CanvasJS.Chart("chartContainer", {
@@ -109,3 +128,6 @@ window.onload = function () {
     chart.render();
     
     }
+
+
+    //

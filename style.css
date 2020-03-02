@@ -1,58 +1,24 @@
+* {
+    box-sizing: border-box;
+  }
+
 body {
-    width: 1440px;
     height: 2509px;
     background-color: #212938;
-    margin: 0%;
     font-family: Roboto, sans-serif;
     color: #97a4ba;
 
   }
-
-    .hover-color:hover, .hover-color:focus {
-        color: #D2EBFC !important;
-    }
-
-    .dark {
-        color: #67758d;
-    }
-
-    .canvasjs-chart-credit {
-        position: initial !important;
-    }
-
-    .hider {
-        width: 100px;
-        height: 13px;
-        background-color: #283040;
-        display: flex;
-        float: left;
-        position: absolute;
-        bottom: 0;
-        left: 0;
-    }
-
-    .hider2 {
-        width: 70px;
-        height: 20px;
-        background-color:#283040;
-        display: flex;
-        float: left;
-        position: absolute;
-    }
   
     
 /* HEADER */
-
 .header {
-    width: 1146px;
     height: 36px;
     background-color: #212938;
-    margin-right: auto;
-    margin-left: auto;
-    margin-top: 20px;
-    margin-bottom: 19px;  
+    margin: 20px 10%;
     display: flex;
     justify-content: space-between;
+    align-items: center;
 }
 
     .header > .left {
@@ -63,14 +29,14 @@ body {
         .header > .left > .logo {
             width: 64px;
             height: 36px;
-            object-fit: contain;
-        }
+            cursor: pointer;
 
+        }
+ 
         .header > .left > .menu {
             padding-left: 59px;
             width: 20px;
             height: 14px;
-            object-fit: contain;
             align-content: center;    
         }
 
@@ -88,12 +54,15 @@ body {
                 width: 18px;
                 height: 14px;
                 object-fit: contain;
+                cursor: pointer;
+
             }
 
             .header > .right .right-item > .notif {
                 width: 21px;
                 height: 21px;
                 object-fit: contain;
+                cursor: pointer;
                 }
             
             .header > .right > .right-item > .-four {
@@ -101,21 +70,27 @@ body {
                 height: 16px;
                 object-fit: contain;
                 color: #424B5F;
+                cursor: pointer;
                 }
 
         .header > .right > .profile {
             display: flex;
             align-items: center;
             float: right;
+            cursor: pointer;
         }    
 
             .header > .right > .profile > .drop-down {
                 position: relative;
                 bottom: 0;
+                cursor: pointer;
+                
             }
                 .header > .right > .profile > .drop-down > i {
                     color: #97A4BA;
                     margin-right: 11.5px;
+                    cursor: pointer;
+
                 }
 
             .header > .right > .profile > .avatar {
@@ -124,9 +99,9 @@ body {
                 object-fit: contain;
                 border: none;
                 margin-left: 10px;
-
-            }
-
+                
+            } 
+            
 /* NAVIGATION */
 
 .navigation {
@@ -136,19 +111,17 @@ body {
 }
 
     .navigation > .nav-content {
-        width: 1146px;
-        margin: auto;
-        align-content: center;
         padding: 20px 0;
+        margin: 20px 10%;
+
     }
 
     .navigation > .nav-content > .block {
         height: 40px;
         color: #81accd;
-        text-align: right;
         float: left;
-        width: 10%;
-        display: flex; 
+        margin-right: 30px;
+        list-style: none;
     }
 
     .rectangle {
@@ -160,14 +133,24 @@ body {
         align-items: center;
       }
 
+      .burger div {
+        width: 25px;
+        height: 3px;
+        background-color: #D2EBFC;
+        color: #212938;
+        margin: 5px;
+    }
 
+    .burger {
+        display: none;
+    }
+
+
+ 
 /* Overview name */
 
 .overview-name {
-    width: 1146px;
-    margin-right: auto;
-    margin-left: auto;
-    margin-top: 20px;
+    margin: 20px 10%;
     display: flex;
     justify-content: space-between;
     border-bottom: solid thin #424B5F;
@@ -184,25 +167,24 @@ body {
 
 .overview-name > .right > .tree {
     font-size: 17px;
-    margin-top: 25px;
+    margin-top: 25px;      
+    cursor: pointer;
+
 }
 
 
 /* Stats1 */
-
+ 
 .stats1 {
-    width: 1146px;
-    height: 174px;;    
-    justify-content: center;
+    height: 174px;
+    margin-left: 10%;
+    display: flex;
     align-items: center;
-    margin-left: auto;
-    margin-right: auto;
+    
 }
 
     .stats1 > .wrapper {
         display: flex;
-        padding-top: 36px;
-        justify-content: space-between;
 
     }
 
@@ -212,7 +194,8 @@ body {
             border-radius: 4px;
             box-shadow: 0 5px 10px -10px rgba(0, 0, 0, 0.5);
             border: solid 1px #283040;
-            background-color: #283040;          
+            background-color: #283040;
+            margin-right: 28px;
         }
 
             .stats1 > .wrapper > .collumn > .name {
@@ -268,11 +251,11 @@ body {
                     
                 }
 
-
+ 
 /* PROJECTION lines */
 
 .projection {
-    width: 1140px;
+    margin: 20px 10%;
     height: 449px;
     border-radius: 4px;
     box-shadow: 0 5px 10px -10px rgba(0, 0, 0, 0.5);
@@ -280,8 +263,7 @@ body {
     background-color: #283040;
     justify-content: center;
     align-items: center;
-    margin-left: auto;
-    margin-right: auto;
+    
 }
 
     .projection > .line1 {
@@ -327,9 +309,9 @@ body {
                 border-radius: 50%;
                 display: inline-block;
             } 
-
+ 
 /* PROJECTION Table */
-
+ 
 .projection > .table {
     display: flex;
     width: 1140px;
@@ -344,11 +326,10 @@ body {
     width: 1140px;
 
 }
-
+ 
 /* STATS2 */
 
 .stats2 {
-    width: 1146px;
     height: 358px;;    
     justify-content: center;
     align-items: center;
@@ -357,13 +338,14 @@ body {
 }
 
     .stats2 > .wrapper {
+        margin: 20px 10%;
         display: flex;
         padding-top: 36px;
         justify-content: space-between;
-    }
+    } 
 
     /* STATS2  .collumn1 */
-
+ 
         .stats2 > .wrapper > .collumn1 {
             width: 360px;
             height: 358px;
@@ -451,10 +433,10 @@ body {
                 background-image: linear-gradient(108deg, #51c81c, #48af1b 100%);
 
             }
-
+ 
         /* STATS2  .collumn2 */
 
-        .stats2 > .wrapper > .collumn2 {
+         .stats2 > .wrapper > .collumn2 {
             width: 457px;
             height: 358px;
             border-radius: 4px;
@@ -490,4 +472,4 @@ body {
             background-color: #283040;          
 
         }
-
+ 

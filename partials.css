@@ -1,0 +1,35 @@
+.hover-color:hover, .hover-color:focus {
+    color: #D2EBFC !important;
+}
+
+.dark {
+    color: #67758d;
+}
+
+.canvasjs-chart-credit {
+    position: initial !important;
+}
+
+.hider {
+    width: 100px;
+    height: 13px;
+    background-color: #283040;
+    display: flex;
+    float: left;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+.hider2 {
+    width: 70px;
+    height: 20px;
+    background-color:#283040;
+    display: flex;
+    float: left;
+    position: absolute;
+}
+
+
+
+

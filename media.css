@@ -1,0 +1,91 @@
+  @media all and (max-width: 1400px) {
+    .stats1 > .wrapper {
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr 1fr;
+      grid-gap: 10px;
+      margin-right: 0px;
+
+    }
+
+    .collumn > img {
+      display: none;
+    }
+
+    .line2 > .percentage {
+      display: none;
+    }
+
+    .line2 > .progress-bar {
+      display: none;
+    }
+
+    .stats1 > .wrapper > .collumn {
+      width: 190px;
+    }
+
+  }
+
+
+  @media all and (max-width: 1100px) {
+    .stats1 > .wrapper {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+    }
+
+    .collumn > img {
+      display: unset;
+    }
+
+    .line2 > .percentage {
+      display: unset;
+    }
+
+    .line2 > .progress-bar {
+      display: unset;
+    }
+
+    .stats1 > .wrapper > .collumn {
+      width: 290px;
+    }
+
+  }
+
+
+  @media all and (max-width: 768px) {
+
+    .navigation-active {
+      height: 240px;
+    } 
+
+    .block {
+      opacity: 0;
+    }
+
+    .navigation-active .block {
+      opacity: 1;
+    }
+
+
+    .navigation > .nav-content > .block {
+      display: flex;
+      flex-direction: column;
+      float: none;
+      transform: translateX(100%);
+    }
+
+    .burger {
+      display: block;
+      cursor: pointer;
+    }
+
+
+    .stats1 > .wrapper {
+      display: none;
+      grid-template-columns: 1fr;
+    }
+  }
+
+
+  @media all and (max-width: 576px) {
+    
+  }
