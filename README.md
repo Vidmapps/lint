@@ -1,5 +1,3 @@
-Share screen link to the project https://zpl.io/2Gd0wjY
-
 # Lint
 
 This is the project (dashboard) to learn **Front-end without** step by step guides. This is the [link](https://zpl.io/2Gd0wjY) to the project desgin work files.
