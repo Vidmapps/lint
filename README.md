@@ -1,6 +1,6 @@
 # Lint
 
-This is the project (dashboard) to learn **Front-end without** step by step guides. This is the [link](https://zpl.io/2Gd0wjY) to the project design work files.
+This is the project (dashboard) to learn **Front-end** without step by step guides. This is the [link](https://zpl.io/2Gd0wjY) to the project design work files.
 
 ## Technologies used:
  - **NodeJS** - platform to run JS outside the browser;
