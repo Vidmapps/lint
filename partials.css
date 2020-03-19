@@ -30,6 +30,26 @@
     position: absolute;
 }
 
+.bColor {
+    background-color: #212938;
+}
 
+.fColor {
+    color: #97a4ba;
+}
 
+.b2Color {
+    background-color: #283040;          
+}
 
+.percentageColor {
+    color: #ffffff;
+}
+
+.collumnBorder {
+    border: solid 1px #283040;
+}
+
+.sectionName {
+    color: #c4cfdd;
+}

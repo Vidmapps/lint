@@ -4,17 +4,13 @@
 
 body {
     height: 2509px;
-    background-color: #212938;
     font-family: Roboto, sans-serif;
-    color: #97a4ba;
-
   }
   
     
 /* HEADER */
 .header {
     height: 36px;
-    background-color: #212938;
     margin: 20px 10%;
     display: flex;
     justify-content: space-between;
@@ -87,7 +83,6 @@ body {
                 
             }
                 .header > .right > .profile > .drop-down > i {
-                    color: #97A4BA;
                     margin-right: 11.5px;
                     cursor: pointer;
 
@@ -118,7 +113,7 @@ body {
 
     .navigation > .nav-content > .block {
         height: 40px;
-        color: #81accd;
+        color: #242627;
         float: left;
         margin-right: 30px;
         list-style: none;
@@ -137,7 +132,6 @@ body {
         width: 25px;
         height: 3px;
         background-color: #D2EBFC;
-        color: #212938;
         margin: 5px;
     }
 
@@ -194,7 +188,6 @@ body {
             border-radius: 4px;
             box-shadow: 0 5px 10px -10px rgba(0, 0, 0, 0.5);
             border: solid 1px #283040;
-            background-color: #283040;
             margin-right: 28px;
         }
 
@@ -212,7 +205,6 @@ body {
             .stats1 > .wrapper > .collumn > .line2 > .amount {
                 margin: 0px 0px 20px 20px;
                 font-size: 28px;
-                color: #c4cfdd;
             }
 
             .stats1 > .wrapper > .collumn .line2 {
@@ -228,7 +220,6 @@ body {
                     background-image: linear-gradient(113deg, #51c81c, #48af1b);
                     text-align: center;
                     font-size: 16px;
-                    color: #ffffff;
                     position: relative
                 }
 
@@ -247,8 +238,7 @@ body {
                     height: 8px;
                     border-radius: 4px;
                     background-image: linear-gradient(94deg, #3794fc, #237bdd);
-                    width: 154px;
-                    
+                    width: 154px; 
                 }
 
  
@@ -259,11 +249,8 @@ body {
     height: 449px;
     border-radius: 4px;
     box-shadow: 0 5px 10px -10px rgba(0, 0, 0, 0.5);
-    border: solid 1px #283040;
-    background-color: #283040;
     justify-content: center;
     align-items: center;
-    
 }
 
     .projection > .line1 {
@@ -274,8 +261,6 @@ body {
         .projection > .line1 > .name {
             margin: 24px 0px 0px 24px;
             font-size: 20px;
-            color: #c4cfdd;
-
         }
 
         .projection > .line1 > .menu {
@@ -351,8 +336,6 @@ body {
             height: 358px;
             border-radius: 4px;
             box-shadow: 0 5px 10px -10px rgba(0, 0, 0, 0.5);
-            border: solid 1px #283040;
-            background-color: #283040;          
         }
 
             .stats2 > .wrapper > .collumn1 > .balance > .first-row {
@@ -365,7 +348,6 @@ body {
                     width: 71px;
                     height: 25px;
                     font-size: 20px;
-                    color: #c4cfdd;
                 }
 
                 .stats2 > .wrapper > .collumn1 > .balance > .amount {
@@ -425,7 +407,6 @@ body {
                 margin: 27px 121px 23px 121px;
                 text-align: center;
                 font-size: 20px;
-                color: #ffffff;
                 position: relative;
                 width: 118px;
                 height: 38px;
@@ -441,8 +422,6 @@ body {
             height: 358px;
             border-radius: 4px;
             box-shadow: 0 5px 10px -10px rgba(0, 0, 0, 0.5);
-            border: solid 1px #283040;
-            background-color: #283040;          
         }
 
         .stats2 > .wrapper > .collumn3 {
@@ -455,9 +434,6 @@ body {
             width: 263px;
             border-radius: 4px;
             box-shadow: 0 5px 10px -10px rgba(0, 0, 0, 0.5);
-            border: solid 1px #283040;
-            background-color: #283040;          
-
         }
 
         .stats2 > .wrapper > .collumn3 > .stats2-right > .down {
@@ -468,8 +444,5 @@ body {
             height: 192px;
             border-radius: 4px;
             box-shadow: 0 5px 10px -10px rgba(0, 0, 0, 0.5);
-            border: solid 1px #283040;
-            background-color: #283040;          
-
         }
  
