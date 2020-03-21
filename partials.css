@@ -62,26 +62,20 @@
     height: 36px;
 }
 
-.collumnWidth {
-    width: 263px;
-}
-
 .borderRadius {
     border-radius: 4px;
-}
-
-.boxShadow {
-    box-shadow: 0 5px 10px -10px rgba(0, 0, 0, 0.5);
 }
 
 .smallerFont {
     font-size: 16px;
 }
 
-.collumnHeight {
-    height: 358px;
-}
-
 .collumnNameFontSize {
     font-size: 20px;
+}
+
+.collumnStructure {
+    width: 263px;
+    box-shadow: 0 5px 10px -10px rgba(0, 0, 0, 0.5);
+    height: 358px;
 }
