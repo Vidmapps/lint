@@ -82,6 +82,7 @@ body {
     height: 60px;
     box-shadow: 0 3px 10px -8px rgba(0, 0, 0, 0.24);
     background-image: linear-gradient(92deg, #0b5289, #094370);
+    margin-bottom: 48px;
 }
 
     .navigation > .nav-content {
