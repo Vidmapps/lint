@@ -30,51 +30,51 @@
     position: absolute;
 }
 
-.bColor {
+.background-color {
     background-color: #212938;
 }
 
-.fColor {
+.font-Color {
     color: #97a4ba;
 }
 
-.b2Color {
+.tab-background-color {
     background-color: #283040;          
 }
 
-.percentageColor {
+.percentage-color {
     color: #ffffff;
 }
 
-.collumnBorder {
+.column-border {
     border: solid 1px #283040;
 }
 
-.sectionNameColor {
+.section-name-Color {
     color: #c4cfdd;
 }
 
-.contentMargin {
+.content-margin {
     margin: 20px 10%;
 }
 
-.headerHeight {
+.header-height {
     height: 36px;
 }
 
-.borderRadius {
+.border-radius {
     border-radius: 4px;
 }
 
-.smallerFont {
+.smaller-font {
     font-size: 16px;
 }
 
-.collumnNameFontSize {
+.column-name-size {
     font-size: 20px;
 }
 
-.collumnStructure {
+.column-structure {
     width: 263px;
     box-shadow: 0 5px 10px -10px rgba(0, 0, 0, 0.5);
     height: 358px;
