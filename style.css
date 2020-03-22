@@ -11,15 +11,8 @@ body {
 /* HEADER */
 .header {
     height: 36px;
-    display: flex;
-    justify-content: space-between;
     align-items: center;
 }
-
-    .header > .left {
-        display: flex;
-        align-items: center;
-    }
 
         .header > .left > .logo {
             width: 64px;
@@ -36,8 +29,6 @@ body {
         }
 
     .header > .right {
-        display: flex;
-        align-items: center;
         float: right;
     }
 
@@ -48,29 +39,20 @@ body {
             .header > .right > .right-item > .-mail {
                 width: 18px;
                 height: 14px;
-                object-fit: contain;
-                cursor: pointer;
-
             }
 
             .header > .right .right-item > .notif {
                 width: 21px;
                 height: 21px;
-                object-fit: contain;
-                cursor: pointer;
                 }
             
             .header > .right > .right-item > .-four {
                 width: 16px;
                 height: 16px;
-                object-fit: contain;
                 color: #424B5F;
-                cursor: pointer;
                 }
 
         .header > .right > .profile {
-            display: flex;
-            align-items: center;
             float: right;
             cursor: pointer;
         }    
@@ -90,10 +72,8 @@ body {
             .header > .right > .profile > .avatar {
                 width: 32px;
                 height: 32px;
-                object-fit: contain;
                 border: none;
                 margin-left: 10px;
-                
             } 
             
 /* NAVIGATION */
@@ -141,8 +121,6 @@ body {
 /* Overview name */
 
 .overview-name {
-    display: flex;
-    justify-content: space-between;
     border-bottom: solid thin #424B5F;
     padding-bottom: 16px;
 }
@@ -168,14 +146,10 @@ body {
 .stats1 {
     height: 174px;
     margin-left: 10%;
-    display: flex;
-    align-items: center;
-    
 }
 
     .stats1 > .wrapper {
         display: flex;
-
     }
 
         .stats1 > .wrapper > .column {
@@ -243,11 +217,6 @@ body {
     align-items: center;
 }
 
-    .projection > .line1 {
-        display: flex;
-        justify-content: space-between
-    }
-
         .projection > .line1 > .name {
             margin: 24px 0px 0px 24px;
         }
@@ -257,8 +226,6 @@ body {
         }
 
         .projection > .line2 {
-            display: flex;
-            justify-content: space-between;
             float: right;
             color: #67758d;
         }
@@ -312,9 +279,7 @@ body {
 }
 
     .stats2 > .wrapper {
-        display: flex;
         padding-top: 36px;
-        justify-content: space-between;
     } 
 
     /* STATS2  .column1 */
@@ -324,8 +289,6 @@ body {
         }
 
             .stats2 > .wrapper > .column1 > .balance > .first-row {
-                display: flex;
-                justify-content: space-between;
                 padding: 24px;
             }
 
@@ -341,11 +304,6 @@ body {
                     color: #37c4fc;
                     margin: 10px 83px 0px 83px;
                 } 
-
-                .stats2 > .wrapper > .column1 > .balance > .second-row {
-                    display: flex;
-                    justify-content: space-between;                    
-                }
 
                     .stats2 > .wrapper > .column1 > .balance > .second-row > .left {
                         width: 180px;
