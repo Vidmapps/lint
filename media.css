@@ -7,7 +7,7 @@
 
     }
 
-    .collumn > img {
+    .column > img {
       display: none;
     }
 
@@ -19,7 +19,7 @@
       display: none;
     }
 
-    .stats1 > .wrapper > .collumn {
+    .stats1 > .wrapper > .column {
       width: 190px;
     }
 
@@ -32,7 +32,7 @@
       grid-template-columns: 1fr 1fr;
     }
 
-    .collumn > img {
+    .column > img {
       display: unset;
     }
 
@@ -44,7 +44,7 @@
       display: unset;
     }
 
-    .stats1 > .wrapper > .collumn {
+    .stats1 > .wrapper > .column {
       width: 290px;
     }
 

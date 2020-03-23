@@ -30,6 +30,67 @@
     position: absolute;
 }
 
+.background-color {
+    background-color: #212938;
+}
 
+.font-color {
+    color: #97a4ba;
+}
 
+.tab-background-color {
+    background-color: #283040;          
+}
 
+.percentage-color {
+    color: #ffffff;
+}
+
+.column-border {
+    border: solid 1px #283040;
+}
+
+.section-name-color {
+    color: #c4cfdd;
+}
+
+.content-margin {
+    margin: 20px 10%;
+}
+
+.header-height {
+    height: 36px;
+}
+
+.border-radius {
+    border-radius: 4px;
+}
+
+.smaller-font {
+    font-size: 16px;
+}
+
+.column-name-size {
+    font-size: 20px;
+}
+
+.column-structure {
+    width: 263px;
+    box-shadow: 0 5px 10px -10px rgba(0, 0, 0, 0.5);
+    height: 358px;
+}
+
+.flex-and-space-between {
+    display: flex;
+    justify-content: space-between;
+}
+
+.flex-and-center {
+    display: flex;
+    align-items: center;
+}
+
+.object-fit-contain-and-pointer {
+    object-fit: contain;
+    cursor: pointer;
+}

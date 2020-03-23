@@ -8,51 +8,50 @@
         <link rel="stylesheet" href="media.css">
         <link rel="stylesheet" href="partials.css">
     </head>
-    <body>
-        <section class="header container">
-            <div class="left">
+    <body class="background-color font-color">
+        <section class="header content-margin container flex-and-space-between">
+            <div class="left flex-and-center">
                 <img src="img/logo.svg" class="logo">
-                <img src="img/menu.svg" class="menu hover-color">
+                <div class="menu"><img src="img/menu.svg"></div>
             </div>
-            <div class="right">
-                <div class="right-item hover-color"><img src="img/025-mail.svg" class="-mail">  </div>
-                <div class="right-item hover-color"><img src="img/notif.svg" class="notif">   </div>
-                <div class="right-item hover-color"><img src="img/009-four.svg"class="-four"></div>                                                        
-                <div class="profile">
+            <div class="right flex-and-center">
+                <div class="right-item hover-color"><img src="img/025-mail.svg" class="-mail object-fit-contain-and-pointer"></div>
+                <div class="right-item hover-color"><img src="img/notif.svg" class="notif object-fit-contain-and-pointer"></div>
+                <div class="right-item hover-color"><img src="img/009-four.svg"class="-four object-fit-contain-and-pointer"></div>                                                        
+                <div class="profile flex-and-center">
                     <div class="drop-down hover-color"><i class="fas fa-chevron-down"></i></div>
                     <div class="name hover-color">Luke Borwn</div>
                     <img src="img/avatar.png"
                         srcset="img/avatar@2x.png 2x,
                                 img/avatar@3x.png 3x"
-                        class="avatar">
+                        class="avatar object-fit-contain-and-pointer">
                 </div>
             </div>
         </section>
-
-             <nav class="navigation">
-                <ul class="nav-content">
+             <nav class="navigation background-color">
+                <ul class="nav-content content-margin">
                     <div class="burger">
                         <div class="line1"></div>
                         <div class="line2"></div>
                         <div class="line3"></div>
                     </div>
                     <li class="block">
-                        <div class="nav-links hover-color">Dashboard
+                        <div class="nav-links hover-color object-fit-contain-and-pointer">Dashboard
                                 <div class="rectangle"></div>
                         </div>
                     </li>
                     <li class="block">
-                        <div class="nav-links hover-color">Projects
+                        <div class="nav-links hover-color object-fit-contain-and-pointer">Projects
                                 <div class="rectangle"></div>
                         </div>
                     </li>
                     <li class="block">
-                        <div class="nav-links hover-color">Invoices
+                        <div class="nav-links hover-color object-fit-contain-and-pointer">Invoices
                                 <div class="rectangle"></div>
                         </div>
                     </li>
                     <li class="block">
-                        <div class="nav-links hover-color">Documents
+                        <div class="nav-links hover-color object-fit-contain-and-pointer">Documents
                                 <br><div class="rectangle"></div>
                         </div>
                     </li>
@@ -61,12 +60,10 @@
                                 <div class="rectangle"></div>
                         </div>
                     </li>                                                      
-                </ul>
-                
+                </ul>       
             </nav>
-           
             <div class="overview">
-                <div class="overview-name">
+                <div class="overview-name content-margin flex-and-space-between">
                     <div class="left">
                         <div class="sub dark">OVERVIEW</div>
                         <div class="section">Dashboard</div>
@@ -75,49 +72,47 @@
                         <div class="tree">Home / Dashboard / <span style="color: #D2EBFC">Overview</span></div>
                     </div>    
                 </div>
-                <div class="stats1">
+                <div class="stats1 flex-and-center">
                     <div class="wrapper">
-                        <div class="collumn">
+                        <div class="column tab-background-color border-radius column-structure">
                             <img src="img/001-dollar-symbol.svg" class="-dollar-symbol icon">
-                            <div class="name">BUDGET</div> 
+                            <div class="name column-name-size">BUDGET</div> 
                             <div class="line2">  
                                 <div class="amount">$129,850</div>
-                                <div class="percentage"><p>+15%</p></div>                     
-                            </div>
-                            
+                                <div class="percentage percentage-color"><p>+15%</p></div>                     
+                            </div>                
                         </div>
-                        <div class="collumn">
+                        <div class="column tab-background-color border-radius column-structure">
                             <img src="img/004-screwdriver-and-wrench-crossed.svg" class="-screwdriver-and-wrench-crossed icon">
                             <div class="line2"></div>                            
-                            <div class="name">OPERATIONS</div>
+                            <div class="name column-name-size">OPERATIONS</div>
                             <div class="line2">
                                 <div class="amount">15,000</div>
                             </div>
                         </div>
-                        <div class="collumn">
+                        <div class="column tab-background-color border-radius column-structure">
                             <img src="img/002-move-arrows.svg" class="-move-arrows icon">
-                            <div class="name">REQUESTS</div>
+                            <div class="name column-name-size">REQUESTS</div>
                             <div class="line2">
                                 <div class="amount">37.209</div>
-                                <div class="percentage" style="background-image: linear-gradient(113deg, #fc381d, #db2f18)">
-                                    <p>-21%</p></div>
+                                <div class="percentage percentage-color" style="background-image: linear-gradient(113deg, #fc381d, #db2f18)">
+                                    <p>-21%</p>
+                                </div>
                             </div>
                         </div>
-                        <div class="collumn">
+                        <div class="column tab-background-color border-radius column-structure">
                             <img src="img/003-clock-circular-outline.svg" class="-clock-circular-outline icon">                            
-                            <div class="name">PROGRESS</div>
+                            <div class="name column-name-size">PROGRESS</div>
                             <div class="line2">
-                                <div class="amount">72%</div>
-                                <div class="progress-bar"></div>
-                            </div>
-                            
+                                <div class="amount smaller-font">72%</div>
+                                <div class="progress-bar border-radius"></div>
+                            </div>   
                         </div>
                     </div>
                 </div>
-                 
-                <div class="projection">
-                    <div class="line1">
-                        <div class="name">Projection</div>
+                <div class="projection tab-background-color column-border content-margin ">
+                    <div class="line1 flex-and-space-between">
+                        <div class="name sectionNameColor column-name-size">Projection</div>
                         <div class="menu"><i class="fas fa-ellipsis-h fa-lg dark"></i></div>
                     </div>
                     <div class="line2">
@@ -131,45 +126,42 @@
                                 Cost
                             </div>
                         </div>
-                    </div>
-                    
+                    </div>                 
                     <div class="table">
                             <div id="chartContainer" style="height: 300px; width: 100%;"></div>
                             <div class="hider"></div>
                             <div class="hider2"></div>
-
                         </div>
-                    </div>
-                    
+                    </div>             
                 </div>
                 <div class="stats2">
-                    <div class="wrapper">
-                        <div class="collumn1">
+                    <div class="wrapper content-margin flex-and-space-between">
+                        <div class="column1 tab-background-color column-border border-radius column-structure">
                             <div class="balance">
-                                <div class="first-row">
-                                    <div class="left">Balance</div>
+                                <div class="first-row flex-and-space-between">
+                                    <div class="left sectionNameColor column-name-size">Balance</div>
                                     <div class="right"><img src="img/014-warning.svg" class="-warning"></div>
                                 </div>
                                 <div class="amount">$183,927</div>
-                                <div class="second-row">
+                                <div class="second-row flex-and-space-between">
                                     <div class="left">
-                                        <div class="up">Last Month</div>
+                                        <div class="up smaller-font">Last Month</div>
                                         <div class="down">$120,124</div>
                                     </div>
                                     <div class="right">
-                                        <div class="up">This Month</div>
+                                        <div class="up smaller-font">This Month</div>
                                         <div class="down">$203,890</div>
                                     </div>
                                 </div>
                                 <div class="bottom">
-                                    <div class="percentage"><p>+23.91%</p></div>                     
+                                    <div class="percentage percentage-color"><p>+23.91%</p></div>                     
                                 </div>
                             </div>
                         </div>
-                        <div class="collumn2">
+                        <div class="column2 tab-background-color column-border border-radius column-structure">
                             <div class="visitors">Visitors</div>
                         </div>
-                        <div class="collumn3">
+                        <div class="column3 tab-background-color column-border border-radius column-structure">
                             <div class="stats2-right">
                                 <div class="up">
                                     <div class="score">score</div>
@@ -190,8 +182,7 @@
                 </div>
                 <div class="latest-projects"></div>
             </div>
-            <div class="footer">
-        
+            <div class="footer">        
         </div> 
 
 
