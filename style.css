@@ -46,7 +46,7 @@ body {
 .header > .right > .right-item > .-four {
   width: 16px;
   height: 16px;
-  color: #424B5F;
+  color: #424b5f;
 }
 
 .header > .right > .profile {
@@ -105,7 +105,7 @@ body {
 .burger div {
   width: 25px;
   height: 3px;
-  background-color: #D2EBFC;
+  background-color: #d2ebfc;
   margin: 5px;
 }
 
@@ -116,7 +116,7 @@ body {
 /* Overview name */
 
 .overview-name {
-  border-bottom: solid thin #424B5F;
+  border-bottom: solid thin #424b5f;
   padding-bottom: 16px;
 }
 
@@ -152,7 +152,7 @@ body {
 }
 
 .projection > .line1 > .name {
-  margin: 24px 0px 0px 24px;
+  margin: 24px 0 0 24px;
 }
 
 .stats1 > .wrapper > .column > .name {
@@ -161,12 +161,12 @@ body {
 }
 
 .stats1 > .wrapper > .column > .icon {
-  margin: 10px 10px 0px 20px;
+  margin: 10px 10px 0 20px;
   float: right;
 }
 
 .stats1 > .wrapper > .column > .line2 > .amount {
-  margin: 0px 0px 20px 20px;
+  margin: 0 0 20px 20px;
   font-size: 28px;
 }
 
@@ -180,7 +180,7 @@ body {
 }
 
 .stats1 > .wrapper > .column > .line2 > .percentage {
-  margin: 4px 0px 20px 17px;
+  margin: 4px 0 20px 17px;
   width: 57px;
   height: 24px;
   border-radius: 11.5px;
@@ -199,7 +199,7 @@ body {
 }
 
 .stats1 > .wrapper > .column > .line2 > .progress-bar {
-  margin: 20px 0px 20px 15px;
+  margin: 20px 0 20px 15px;
   float: right;
   height: 8px;
   background-image: linear-gradient(94deg, #3794fc, #237bdd);
@@ -217,7 +217,7 @@ body {
 }
 
 .projection > .line1 > .menu {
-  margin: 24px 24px 0px 0px;
+  margin: 24px 24px 0 0;
 }
 
 .projection > .line2 > .meanings {
@@ -290,7 +290,7 @@ body {
   height: 61px;
   font-size: 48px;
   color: #37c4fc;
-  margin: 10px 83px 0px 83px;
+  margin: 10px 83px 0 83px;
 }
 
 .stats2 > .wrapper > .column1 > .balance > .second-row > .left {
