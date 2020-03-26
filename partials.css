@@ -1,5 +1,5 @@
 .hover-color:hover .hover-color:focus {
-  color: #D2EBFC !important;
+  color: #d2ebfc !important;
 }
 
 .dark {
@@ -39,11 +39,11 @@
 }
 
 .tab-background-color {
-  background-color: #283040;          
+  background-color: #283040;
 }
 
 .percentage-color {
-  color: #ffffff;
+  color: #fff;
 }
 
 .column-border {
