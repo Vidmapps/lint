@@ -10,7 +10,6 @@ body {
 /* HEADER */
 .header {
   height: 36px;
-  align-items: center;
 }
 
 .header > .left > .logo {
@@ -23,10 +22,6 @@ body {
   padding-left: 59px;
   width: 20px;
   height: 14px;
-}
-
-.header > .right {
-  float: right;
 }
 
 .header > .right > .right-item {
@@ -50,13 +45,6 @@ body {
 }
 
 .header > .right > .profile {
-  float: right;
-  cursor: pointer;
-}
-
-.header > .right > .profile > .drop-down {
-  position: relative;
-  bottom: 0;
   cursor: pointer;
 }
 
@@ -99,7 +87,6 @@ body {
   border-radius: 1.5px;
   background-color: linear-gradient(92deg, #0b5289, #094370);
   margin-top: 18px;
-  align-items: center;
 }
 
 .burger div {
@@ -185,7 +172,6 @@ body {
   height: 24px;
   border-radius: 11.5px;
   background-image: linear-gradient(113deg, #51c81c, #48af1b);
-  text-align: center;
   position: relative;
 }
 
@@ -200,7 +186,6 @@ body {
 
 .stats1 > .wrapper > .column > .line2 > .progress-bar {
   margin: 20px 0 20px 15px;
-  float: right;
   height: 8px;
   background-image: linear-gradient(94deg, #3794fc, #237bdd);
   width: 154px;
@@ -212,8 +197,6 @@ body {
   height: 449px;
   border-radius: 4px;
   box-shadow: 0 5px 10px -10px rgba(0, 0, 0, 0.5);
-  justify-content: center;
-  align-items: center;
 }
 
 .projection > .line1 > .menu {
@@ -260,8 +243,6 @@ body {
 
 .stats2 {
   height: 358px;
-  justify-content: center;
-  align-items: center;
   margin-left: auto;
   margin-right: auto;
 }
