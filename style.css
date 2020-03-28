@@ -102,7 +102,7 @@ body {
   align-items: center;
 }
 
-.burger line {
+.burger .line {
   width: 25px;
   height: 3px;
   background-color: #d2ebfc;
