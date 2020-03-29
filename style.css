@@ -109,7 +109,7 @@ body {
   align-items: center;
 }
 
-.burger div {
+.burger .line {
   width: 25px;
   height: 3px;
   background-color: #d2ebfc;
@@ -201,7 +201,7 @@ body {
   position: relative;
 }
 
-.percentage p {
+.percentage .percentage-paragraph {
   margin: 0;
   position: absolute;
   top: 50%;
