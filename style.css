@@ -11,9 +11,6 @@ body {
 /* HEADER */
 .header {
   height: 36px;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
 }
 
 .header > .left > .logo {
@@ -26,10 +23,6 @@ body {
   padding-left: 59px;
   width: 20px;
   height: 14px;
-}
-
-.header > .right {
-  float: right;
 }
 
 .header > .right > .right-item {
@@ -53,13 +46,6 @@ body {
 }
 
 .header > .right > .profile {
-  float: right;
-  cursor: pointer;
-}
-
-.header > .right > .profile > .drop-down {
-  position: relative;
-  bottom: 0;
   cursor: pointer;
 }
 
@@ -104,9 +90,6 @@ body {
   border-radius: 1.5px;
   background-color: linear-gradient(92deg, #0b5289, #094370);
   margin-top: 18px;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
 }
 
 .burger .line {
@@ -197,7 +180,6 @@ body {
   border-radius: 11.5px;
   background-image: -o-linear-gradient(337deg, #51c81c, #48af1b);
   background-image: linear-gradient(113deg, #51c81c, #48af1b);
-  text-align: center;
   position: relative;
 }
 
@@ -214,7 +196,6 @@ body {
 
 .stats1 > .wrapper > .column > .line2 > .progress-bar {
   margin: 20px 0 20px 15px;
-  float: right;
   height: 8px;
   background-image: -o-linear-gradient(356deg, #3794fc, #237bdd);
   background-image: linear-gradient(94deg, #3794fc, #237bdd);
@@ -228,12 +209,6 @@ body {
   border-radius: 4px;
   -webkit-box-shadow: 0 5px 10px -10px rgba(0, 0, 0, 0.5);
   box-shadow: 0 5px 10px -10px rgba(0, 0, 0, 0.5);
-  -webkit-box-pack: center;
-  -ms-flex-pack: center;
-  justify-content: center;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
 }
 
 .projection > .line1 > .menu {
@@ -286,12 +261,6 @@ body {
 
 .stats2 {
   height: 358px;
-  -webkit-box-pack: center;
-  -ms-flex-pack: center;
-  justify-content: center;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
   margin-left: auto;
   margin-right: auto;
 }
