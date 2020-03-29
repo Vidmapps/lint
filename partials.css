@@ -1,5 +1,5 @@
 .hover-color:hover .hover-color:focus {
-  color: #D2EBFC !important;
+  color: #d2ebfc !important;
 }
 
 .dark {
@@ -14,6 +14,8 @@
   width: 100px;
   height: 13px;
   background-color: #283040;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
   float: left;
   position: absolute;
@@ -25,6 +27,8 @@
   width: 70px;
   height: 20px;
   background-color: #283040;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
   float: left;
   position: absolute;
@@ -39,11 +43,11 @@
 }
 
 .tab-background-color {
-  background-color: #283040;          
+  background-color: #283040;
 }
 
 .percentage-color {
-  color: #ffffff;
+  color: #fff;
 }
 
 .column-border {
@@ -76,21 +80,31 @@
 
 .column-structure {
   width: 263px;
+  -webkit-box-shadow: 0 5px 10px -10px rgba(0, 0, 0, 0.5);
   box-shadow: 0 5px 10px -10px rgba(0, 0, 0, 0.5);
   height: 358px;
 }
 
 .flex-and-space-between {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
   justify-content: space-between;
 }
 
 .flex-and-center {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
   align-items: center;
 }
 
 .object-fit-contain-and-pointer {
+  -o-object-fit: contain;
   object-fit: contain;
   cursor: pointer;
 }
