@@ -108,3 +108,7 @@
   object-fit: contain;
   cursor: pointer;
 }
+
+.uppercasing {
+  text-transform: uppercase;
+}
