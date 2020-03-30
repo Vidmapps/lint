@@ -29,19 +29,7 @@ body {
   margin-right: 32px;
 }
 
-.header > .right > .right-item > .-mail {
-  width: 18px;
-  height: 14px;
-}
-
-.header > .right .right-item > .notification {
-  width: 21px;
-  height: 21px;
-}
-
 .header > .right > .right-item > .-four {
-  width: 16px;
-  height: 16px;
   color: #424b5f;
 }
 
