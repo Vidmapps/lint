@@ -1,5 +1,5 @@
-.hover-color:hover .hover-color:focus {
-  color: #d2ebfc !important;
+.hover-color:hover {
+  color: #d2ebfc;
 }
 
 .dark {
@@ -107,4 +107,8 @@
   -o-object-fit: contain;
   object-fit: contain;
   cursor: pointer;
+}
+
+.uppercasing {
+  text-transform: uppercase;
 }
