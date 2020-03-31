@@ -29,19 +29,8 @@ body {
   margin-right: 32px;
 }
 
-.header > .right > .right-item > .-mail {
-  width: 18px;
-  height: 14px;
-}
-
-.header > .right .right-item > .notif {
-  width: 21px;
-  height: 21px;
-}
-
 .header > .right > .right-item > .-four {
-  width: 16px;
-  height: 16px;
+  color: #424b5f;
 }
 
 .header > .right > .profile {
@@ -49,7 +38,7 @@ body {
 }
 
 .header > .right > .profile > .drop-down > i {
-  margin-right: 11.5px;
+  margin-right: 12px;
   cursor: pointer;
 }
 
@@ -86,7 +75,7 @@ body {
 .rectangle {
   width: 20px;
   height: 3px;
-  border-radius: 1.5px;
+  border-radius: 2px;
   background-color: linear-gradient(92deg, #0b5289, #094370);
   margin-top: 18px;
 }
@@ -176,7 +165,7 @@ body {
   margin: 4px 0 20px 17px;
   width: 57px;
   height: 24px;
-  border-radius: 11.5px;
+  border-radius: 12px;
   background-image: -o-linear-gradient(337deg, #51c81c, #48af1b);
   background-image: linear-gradient(113deg, #51c81c, #48af1b);
   position: relative;
