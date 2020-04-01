@@ -4,7 +4,6 @@
 }
 
 body {
-  height: 2509px;
   font-family: Roboto, sans-serif;
 }
 
@@ -29,7 +28,7 @@ body {
   margin-right: 32px;
 }
 
-.header > .right > .right-item > .-four {
+.header > .right > .right-item > .four {
   color: #424b5f;
 }
 
