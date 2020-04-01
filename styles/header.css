@@ -1,0 +1,33 @@
+
+.header {
+  height: 36px;
+}
+
+.logo {
+  width: 64px;
+  height: 36px;
+  cursor: pointer;
+}
+
+.menu {
+  padding-left: 59px;
+  width: 20px;
+  height: 14px;
+}
+
+.right-item {
+  margin-right: 32px;
+}
+
+.profile {
+  cursor: pointer;
+}
+
+.drop-down {
+  margin-right: 12px;
+}
+
+.avatar {
+  height: 32px;
+  margin-left: 10px;
+}
