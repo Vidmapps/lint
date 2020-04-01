@@ -7,11 +7,11 @@
   margin-bottom: 48px;
 }
 
-.navigation > .nav-content {
+.nav-content {
   padding: 20px 0;
 }
 
-.navigation > .nav-content > .block {
+.nav-content-block {
   height: 40px;
   color: #81accd;
   float: left;
@@ -27,13 +27,13 @@
   margin-top: 18px;
 }
 
-.burger .line {
+.nav-burger .line {
   width: 25px;
   height: 3px;
   background-color: #d2ebfc;
   margin: 5px;
 }
 
-.burger {
+.nav-burger {
   display: none;
 }

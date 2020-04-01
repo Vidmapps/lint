@@ -3,31 +3,31 @@
   height: 36px;
 }
 
-.logo {
+.header-logo {
   width: 64px;
   height: 36px;
   cursor: pointer;
 }
 
-.menu {
+.header-menu {
   padding-left: 59px;
   width: 20px;
   height: 14px;
 }
 
-.right-item {
+.header-right-item {
   margin-right: 32px;
 }
 
-.profile {
+.header-profile {
   cursor: pointer;
 }
 
-.drop-down {
+.profile-drop-down {
   margin-right: 12px;
 }
 
-.avatar {
+.profile-avatar {
   height: 32px;
   margin-left: 10px;
 }

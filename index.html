@@ -9,25 +9,26 @@
         <link rel="stylesheet" href="styles/partials.css">
         <link rel="stylesheet" href="styles/header.css">
         <link rel="stylesheet" href="styles/navigation.css">
+        <link rel="stylesheet" href="styles/quick-stats.css">
     </head>
     <body class="background-color font-color">
         <!--header.css-->
         <section class="header content-margin container flex-and-space-between">
             <div class="left flex-and-center">
-                <img src="img/logo.svg" class="logo">
-                <div class="menu"><img src="img/menu.svg"></div>
+                <img src="img/logo.svg" class="header-logo">
+                <div class="header-menu"><img src="img/menu.svg"></div>
             </div>
             <div class="right flex-and-center">
-                <div class="right-item"><img src="img/025-mail.svg" class="mail object-fit-contain-and-pointer"></div>
-                <div class="right-item"><img src="img/notif.svg" class="notification object-fit-contain-and-pointer"></div>
-                <div class="right-item"><img src="img/009-four.svg"class="four object-fit-contain-and-pointer"></div>                                                        
-                <div class="profile flex-and-center hover-color">
-                    <div class="drop-down"><i class="fas fa-chevron-down"></i></div>
-                    <div class="name">Luke Borwn</div>
+                <div class="header-right-item"><img src="img/025-mail.svg" class="mail object-fit-contain-and-pointer"></div>
+                <div class="header-right-item"><img src="img/notif.svg" class="notification object-fit-contain-and-pointer"></div>
+                <div class="header-right-item"><img src="img/009-four.svg"class="four object-fit-contain-and-pointer"></div>                                                        
+                <div class="header-profile flex-and-center hover-color">
+                    <div class="profile-drop-down"><i class="fas fa-chevron-down"></i></div>
+                    <div class="profile-name">Luke Borwn</div>
                     <img src="img/avatar.png"
                         srcset="img/avatar@2x.png 2x,
                                 img/avatar@3x.png 3x"
-                        class="avatar object-fit-contain-and-pointer">
+                        class="profile-avatar object-fit-contain-and-pointer">
                 </div>
             </div>
         </section>
@@ -40,27 +41,27 @@
                         <div class="line"></div>
                         <div class="line"></div>
                     </div>
-                    <li class="block">
+                    <li class="nav-content-block">
                         <div class="nav-links hover-color object-fit-contain-and-pointer">Dashboard
                                 <div class="rectangle"></div>
                         </div>
                     </li>
-                    <li class="block">
+                    <li class="nav-content-block">
                         <div class="nav-links hover-color object-fit-contain-and-pointer">Projects
                                 <div class="rectangle"></div>
                         </div>
                     </li>
-                    <li class="block">
+                    <li class="nav-content-block">
                         <div class="nav-links hover-color object-fit-contain-and-pointer">Invoices
                                 <div class="rectangle"></div>
                         </div>
                     </li>
-                    <li class="block">
+                    <li class="nav-content-block">
                         <div class="nav-links hover-color object-fit-contain-and-pointer">Documents
                                 <br><div class="rectangle"></div>
                         </div>
                     </li>
-                    <li class="block">
+                    <li class="nav-content-block">
                         <div class="nav-links hover-color object-fit-contain-and-pointer">Settings
                                 <div class="rectangle"></div>
                         </div>
@@ -68,58 +69,60 @@
                 </ul>       
             </nav>
             <!--navigation.css-->
-            <div class="overview">
+            <!--quick-stats.css-->
+            <section class="overview">
                 <div class="overview-name content-margin flex-and-space-between">
                     <div class="left">
-                        <div class="sub dark uppercasing">Overview</div>
-                        <div class="section">Dashboard</div>
+                        <div class="content-name dark uppercasing">Overview</div>
+                        <div class="overview-section">Dashboard</div>
                     </div>
                     <div class="right">
-                        <div class="tree">Home / Dashboard / <span style="color: #D2EBFC">Overview</span></div>
+                        <div class="overview-tree">Home / Dashboard / <span style="color: #D2EBFC">Overview</span></div>
                     </div>    
                 </div>
-                <div class="stats1 flex-and-center">
+                <div class="quick-stats flex-and-center">
                     <div class="wrapper">
-                        <div class="column tab-background-color border-radius column-structure">
-                            <img src="img/001-dollar-symbol.svg" class="dollar-symbol icon">
-                            <div class="name column-name-size uppercasing">Budget</div> 
-                            <div class="line2">  
-                                <div class="amount">$129,850</div>
-                                <div class="percentage percentage-color"><p class="percentage-paragraph" >+15%</p></div>                     
+                        <div class="quick-stats-tab tab-background-color border-radius tab-structure">
+                            <img src="img/001-dollar-symbol.svg" class="dollar-symbol quick-stats-tab-icon">
+                            <div class="quick-stats-tab-name tab-name-size uppercasing">Budget</div> 
+                            <div class="quick-stats-tab-line2">  
+                                <div class="quick-stats-tab-amount">$129,850</div>
+                                <div class="quick-stats-tab-percentage percentage-color"><p class="percentage-paragraph" >+15%</p></div>                     
                             </div>                
                         </div>
-                        <div class="column tab-background-color border-radius column-structure">
-                            <img src="img/004-screwdriver-and-wrench-crossed.svg" class="screwdriver-and-wrench-crossed icon">
-                            <div class="line2"></div>                            
-                            <div class="name column-name-size uppercasing">Operations</div>
-                            <div class="line2">
-                                <div class="amount">15,000</div>
+                        <div class="quick-stats-tab tab-background-color border-radius tab-structure">
+                            <img src="img/004-screwdriver-and-wrench-crossed.svg" class="screwdriver-and-wrench-crossed quick-stats-tab-icon">
+                            <div class="quick-stats-tab-ine2"></div>                            
+                            <div class="quick-stats-tab-name tab-name-size uppercasing">Operations</div>
+                            <div class="quick-stats-tab-line2">
+                                <div class="quick-stats-tab-amount">15,000</div>
                             </div>
                         </div>
-                        <div class="column tab-background-color border-radius column-structure">
-                            <img src="img/002-move-arrows.svg" class="move-arrows icon">
-                            <div class="name column-name-size uppercasing">Requests</div>
-                            <div class="line2">
-                                <div class="amount">37.209</div>
-                                <div class="percentage percentage-color" style="background-image: linear-gradient(113deg, #fc381d, #db2f18)">
+                        <div class="quick-stats-tab tab-background-color border-radius tab-structure">
+                            <img src="img/002-move-arrows.svg" class="move-arrows quick-stats-tab-icon">
+                            <div class="quick-stats-tab-name tab-name-size uppercasing">Requests</div>
+                            <div class="quick-stats-tab-line2">
+                                <div class="quick-stats-tab-amount">37.209</div>
+                                <div class="quick-stats-tab-percentage percentage-color" style="background-image: linear-gradient(113deg, #fc381d, #db2f18)">
                                     <p class="percentage-paragraph">-21%</p>
                                 </div>
                             </div>
                         </div>
-                        <div class="column tab-background-color border-radius column-structure">
-                            <img src="img/003-clock-circular-outline.svg" class="clock-circular-outline icon">                            
-                            <div class="name column-name-size uppercasing">Progress</div>
-                            <div class="line2">
-                                <div class="amount smaller-font">72%</div>
-                                <div class="progress-bar border-radius"></div>
+                        <div class="quick-stats-tab tab-background-color border-radius tab-structure">
+                            <img src="img/003-clock-circular-outline.svg" class="clock-circular-outline quick-stats-tab-icon">                            
+                            <div class="quick-stats-tab-name tab-name-size uppercasing">Progress</div>
+                            <div class="quick-stats-tab-line2">
+                                <div class="quick-stats-tab-amount smaller-font">72%</div>
+                                <div class="quick-stats-tab-progress-bar border-radius"></div>
                             </div>   
                         </div>
                     </div>
-                </div>
-                <div class="projection tab-background-color column-border content-margin ">
+                </section>
+                <!--quick-stats.css-->
+                <div class="projection tab-background-color tab-border content-margin">
                     <div class="line1 flex-and-space-between">
-                        <div class="name sectionNameColor column-name-size">Projection</div>
-                        <div class="menu"><i class="fas fa-ellipsis-h fa-lg dark"></i></div>
+                        <div class="name sectionNameColor tab-name-size">Projection</div>
+                        <div class="dot-menu"><i class="fas fa-ellipsis-h fa-lg dark"></i></div>
                     </div>
                     <div class="line2">
                         <div class="meanings">
@@ -142,10 +145,10 @@
                 </div>
                 <div class="stats2">
                     <div class="wrapper content-margin flex-and-space-between">
-                        <div class="column1 tab-background-color column-border border-radius column-structure">
+                        <div class="tab1 tab-background-color tab-border border-radius tab-structure">
                             <div class="balance">
                                 <div class="first-row flex-and-space-between">
-                                    <div class="left sectionNameColor column-name-size">Balance</div>
+                                    <div class="left sectionNameColor tab-name-size">Balance</div>
                                     <div class="right"><img src="img/014-warning.svg" class="warning"></div>
                                 </div>
                                 <div class="amount">$183,927</div>
@@ -164,10 +167,10 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="column2 tab-background-color column-border border-radius column-structure">
+                        <div class="tab2 tab-background-color tab-border border-radius tab-structure">
                             <div class="visitors">Visitors</div>
                         </div>
-                        <div class="column3 tab-background-color column-border border-radius column-structure">
+                        <div class="tab3 tab-background-color tab-border border-radius tab-structure">
                             <div class="stats2-right">
                                 <div class="up">
                                     <div class="score">score</div>
