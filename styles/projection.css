@@ -33,6 +33,14 @@
   display: inline-block;
 }
 
+.dot-cost {
+  background-color: #9d60fb;
+}
+
+.dot-revenue {
+  background-color: #3794fc;
+}
+
 /* PROJECTION Table */
 
 .projection-table {

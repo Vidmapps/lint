@@ -1,5 +1,5 @@
 @media all and (max-width: 1400px) {
-  .quick-stats > .wrapper {
+  .wrapper {
     display: -ms-grid;
     display: grid;
     -ms-grid-columns: 1fr 10px 1fr 10px 1fr 10px 1fr;
@@ -8,44 +8,44 @@
     margin-right: 0%;
   }
 
-  .tab > .icon {
+  .quick-stats-tab-icon {
     display: none;
   }
 
-  .line2 > .percentage {
+  .quick-stats-tab-percentage {
     display: none;
   }
 
-  .line2 > .progress-bar {
+  .quick-stats-tab-progress-bar {
     display: none;
   }
 
-  .quick-stats > .wrapper > .tab {
+  .quick-stats-tab {
     width: 190px;
   }
 }
 
 @media all and (max-width: 1100px) {
-  .quick-stats > .wrapper {
+  .wrapper {
     display: -ms-grid;
     display: grid;
     -ms-grid-columns: 1fr 10px 1fr;
     grid-template-columns: 1fr 1fr;
   }
 
-  .tab > .icon {
+  .quick-stats-tab-icon {
     display: unset;
   }
 
-  .line2 > .percentage {
+  .quick-stats-tab-percentage {
     display: unset;
   }
 
-  .line2 > .progress-bar {
+  .quick-stats-tab-progress-bar {
     display: unset;
   }
 
-  .quick-stats > .wrapper > .tab {
+  .quick-stats-tab {
     width: 290px;
   }
 }
@@ -59,11 +59,11 @@
     opacity: 0;
   }
 
-  .navigation-active .block {
+  .nav-active-block {
     opacity: 1;
   }
 
-  .navigation > .nav-content > .block {
+  .nav-content-block {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -82,7 +82,7 @@
     cursor: pointer;
   }
 
-  .quick-stats > .wrapper {
+  .wrapper {
     display: none;
     -ms-grid-columns: 1fr;
     grid-template-columns: 1fr;
