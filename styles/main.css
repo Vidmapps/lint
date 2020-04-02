@@ -1,3 +1,13 @@
+* {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+body {
+  height: 2509px;
+  font-family: Roboto, sans-serif;
+}
+
 .hover-color:hover {
   color: #d2ebfc;
 }
