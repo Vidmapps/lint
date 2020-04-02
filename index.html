@@ -11,6 +11,7 @@
         <link rel="stylesheet" href="styles/navigation.css">
         <link rel="stylesheet" href="styles/quick-stats.css">
         <link rel="stylesheet" href="styles/projection.css">
+        <link rel="stylesheet" href="styles/balance.css">
     </head>
     <body class="background-color font-color">
         <!--header.css-->
@@ -146,42 +147,40 @@
                     </div>             
                 </div>
                 <!--projection.css-->
-                <div class="stats2">
-                    <div class="wrapper content-margin flex-and-space-between">
-                        <div class="tab1 tab-background-color tab-border border-radius tab-structure">
-                            <div class="balance">
-                                <div class="first-row flex-and-space-between dashboard-name">
-                                    <div class="left">Balance</div>
-                                    <div class="right"><img src="img/014-warning.svg" class="warning"></div>
-                                </div>
-                                <div class="amount">$183,927</div>
-                                <div class="second-row flex-and-space-between">
-                                    <div class="left">
-                                        <div class="up smaller-font">Last Month</div>
-                                        <div class="down">$120,124</div>
-                                    </div>
-                                    <div class="right">
-                                        <div class="up smaller-font">This Month</div>
-                                        <div class="down">$203,890</div>
-                                    </div>
-                                </div>
-                                <div class="bottom">
-                                    <div class="percentage percentage-color"><p class="percentage-paragraph">+23.91%</p></div>                     
-                                </div>
+                <div class="wrapper content-margin flex-and-space-between">
+                    <!--balance.css-->
+                    <div class="balance tab-background-color tab-border border-radius tab-structure">
+                        <div class="first-row flex-and-space-between dashboard-name">
+                            <div class="left">Balance</div>
+                            <div class="right"><img src="img/014-warning.svg" class="warning"></div>
+                        </div>
+                        <div class="balance-amount">$183,927</div>
+                        <div class="second-row flex-and-space-between">
+                            <div class="balance-before">
+                                <div class="balance-up smaller-font">Last Month</div>
+                                <div class="balance-down">$120,124</div>
+                            </div>
+                            <div class="balance-now">
+                                <div class="balance-up smaller-font">This Month</div>
+                                <div class="balance-down">$203,890</div>
                             </div>
                         </div>
-                        <div class="tab2 tab-background-color tab-border border-radius tab-structure">
-                            <div class="visitors">Visitors</div>
+                        <div class="balance-increase">
+                            <div class="percentage percentage-color"><p class="percentage-paragraph">+23.91%</p></div>                     
                         </div>
-                        <div class="tab3 tab-background-color tab-border border-radius tab-structure">
-                            <div class="stats2-right">
-                                <div class="up">
-                                    <div class="score">score</div>
-                                </div>
-                                <div class="down">
-                                    <div class="blog">blog</div>
-                                </div> 
+                    </div>
+                    <!--balance.css-->
+                    <div class="tab2 tab-background-color tab-border border-radius tab-structure">
+                        <div class="visitors">Visitors</div>
+                    </div>
+                    <div class="tab3 tab-background-color tab-border border-radius tab-structure">
+                        <div class="stats2-right">
+                            <div class="up">
+                                <div class="score">score</div>
                             </div>
+                            <div class="down">
+                                <div class="blog">blog</div>
+                            </div> 
                         </div>
                     </div>
                 </div>

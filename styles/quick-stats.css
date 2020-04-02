@@ -20,14 +20,7 @@
 /* quick-stats */
 
 .quick-stats {
-  height: 174px;
   margin-left: 10%;
-}
-
-.wrapper {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
 }
 
 .quick-stats-tab {

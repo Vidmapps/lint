@@ -1,0 +1,47 @@
+.balance {
+  width: 360px;
+}
+
+.balance-amount {
+  width: 190px;
+  height: 61px;
+  font-size: 48px;
+  color: #37c4fc;
+  margin: 10px 83px 0 83px;
+}
+
+.balance-before {
+  width: 180px;
+  height: 91px;
+  margin-top: 33px;
+  border-right: solid 1px #424b5f;
+  text-align: center;
+}
+
+.balance-up {
+  margin-top: 9px;
+}
+
+.balance-down {
+  margin-bottom: 8px;
+  margin-top: 24px;
+}
+
+.balance-now {
+  width: 180px;
+  height: 91px;
+  margin-top: 33px;
+  text-align: center;
+}
+
+.balance-increase {
+  margin: 27px 121px 23px 121px;
+  text-align: center;
+  font-size: 20px;
+  position: relative;
+  width: 118px;
+  height: 38px;
+  border-radius: 19px;
+  background-image: -o-linear-gradient(342deg, #51c81c, #48af1b 100%);
+  background-image: linear-gradient(108deg, #51c81c, #48af1b 100%);
+}

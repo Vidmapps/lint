@@ -18,91 +18,24 @@ body {
 
 /* STATS2 */
 
-.stats2 {
-  height: 358px;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-.stats2 > .wrapper {
-  padding-top: 36px;
-}
-
 /* STATS2  .tab */
-
-.stats2 > .wrapper > .tab1 {
-  width: 360px;
-}
-
-.stats2 > .wrapper > .tab1 > .balance > .amount {
-  width: 190px;
-  height: 61px;
-  font-size: 48px;
-  color: #37c4fc;
-  margin: 10px 83px 0 83px;
-}
-
-.stats2 > .wrapper > .tab1 > .balance > .second-row > .left {
-  width: 180px;
-  height: 91px;
-  margin-top: 33px;
-  border-right: solid 1px #424b5f;
-  text-align: center;
-}
-
-.stats2 > .wrapper > .tab3 > .stats2-right > .up {
-  height: 128px;
-}
-
-.stats2 > .wrapper > .tab1 > .balance > .second-row > .left > .up {
-  margin-top: 9px;
-}
-
-.stats2 > .wrapper > .tab3 > .stats2-right > .down {
-  padding-top: 36px;
-}
-
-.stats2 > .wrapper > .tab1 > .balance > .second-row > .left > .down {
-  margin-bottom: 8px;
-  margin-top: 24px;
-}
-
-.stats2 > .wrapper > .tab1 > .balance > .second-row > .right {
-  width: 180px;
-  height: 91px;
-  margin-top: 33px;
-  text-align: center;
-}
-
-.stats2 > .wrapper > .tab1 > .balance > .second-row > .right > .up {
-  margin-top: 9px;
-}
-
-.stats2 > .wrapper > .tab1 > .balance > .second-row > .right > .down {
-  margin-bottom: 8px;
-  margin-top: 24px;
-}
-
-.stats2 > .wrapper > .tab1 > .balance > .bottom {
-  margin: 27px 121px 23px 121px;
-  text-align: center;
-  font-size: 20px;
-  position: relative;
-  width: 118px;
-  height: 38px;
-  border-radius: 19px;
-  background-image: -o-linear-gradient(342deg, #51c81c, #48af1b 100%);
-  background-image: linear-gradient(108deg, #51c81c, #48af1b 100%);
-}
 
 /* STATS2  .tab2 */
 
-.stats2 > .wrapper > .tab2 {
+.wrapper > .tab2 {
   width: 457px;
 }
 
-.stats2 > .wrapper > .tab3 > .stats2-right > .down > .blog {
+.wrapper > .tab3 > .stats2-right > .down > .blog {
   height: 192px;
   -webkit-box-shadow: 0 5px 10px -10px rgba(0, 0, 0, 0.5);
   box-shadow: 0 5px 10px -10px rgba(0, 0, 0, 0.5);
+}
+
+.wrapper > .tab3 > .stats2-right > .up {
+  height: 128px;
+}
+
+.wrapper > .tab3 > .stats2-right > .down {
+  padding-top: 36px;
 }
