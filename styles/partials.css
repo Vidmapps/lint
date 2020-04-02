@@ -54,10 +54,6 @@
   border: solid 1px #283040;
 }
 
-.section-name-color {
-  color: #c4cfdd;
-}
-
 .content-margin {
   margin: 20px 10%;
 }
@@ -111,4 +107,10 @@
 
 .uppercasing {
   text-transform: uppercase;
+}
+
+.dashboard-name {
+  font-size: 20px;
+  color: #c4cfdd;
+  padding: 24px;
 }

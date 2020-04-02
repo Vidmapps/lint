@@ -10,6 +10,7 @@
         <link rel="stylesheet" href="styles/header.css">
         <link rel="stylesheet" href="styles/navigation.css">
         <link rel="stylesheet" href="styles/quick-stats.css">
+        <link rel="stylesheet" href="styles/projection.css">
     </head>
     <body class="background-color font-color">
         <!--header.css-->
@@ -84,7 +85,7 @@
                     <div class="wrapper">
                         <div class="quick-stats-tab tab-background-color border-radius tab-structure">
                             <img src="img/001-dollar-symbol.svg" class="dollar-symbol quick-stats-tab-icon">
-                            <div class="quick-stats-tab-name tab-name-size uppercasing">Budget</div> 
+                            <div class="quick-stats-tab-name uppercasing">Budget</div> 
                             <div class="quick-stats-tab-line2">  
                                 <div class="quick-stats-tab-amount">$129,850</div>
                                 <div class="quick-stats-tab-percentage percentage-color"><p class="percentage-paragraph" >+15%</p></div>                     
@@ -93,14 +94,14 @@
                         <div class="quick-stats-tab tab-background-color border-radius tab-structure">
                             <img src="img/004-screwdriver-and-wrench-crossed.svg" class="screwdriver-and-wrench-crossed quick-stats-tab-icon">
                             <div class="quick-stats-tab-ine2"></div>                            
-                            <div class="quick-stats-tab-name tab-name-size uppercasing">Operations</div>
+                            <div class="quick-stats-tab-name uppercasing">Operations</div>
                             <div class="quick-stats-tab-line2">
                                 <div class="quick-stats-tab-amount">15,000</div>
                             </div>
                         </div>
                         <div class="quick-stats-tab tab-background-color border-radius tab-structure">
                             <img src="img/002-move-arrows.svg" class="move-arrows quick-stats-tab-icon">
-                            <div class="quick-stats-tab-name tab-name-size uppercasing">Requests</div>
+                            <div class="quick-stats-tab-name uppercasing">Requests</div>
                             <div class="quick-stats-tab-line2">
                                 <div class="quick-stats-tab-amount">37.209</div>
                                 <div class="quick-stats-tab-percentage percentage-color" style="background-image: linear-gradient(113deg, #fc381d, #db2f18)">
@@ -110,7 +111,7 @@
                         </div>
                         <div class="quick-stats-tab tab-background-color border-radius tab-structure">
                             <img src="img/003-clock-circular-outline.svg" class="clock-circular-outline quick-stats-tab-icon">                            
-                            <div class="quick-stats-tab-name tab-name-size uppercasing">Progress</div>
+                            <div class="quick-stats-tab-name uppercasing">Progress</div>
                             <div class="quick-stats-tab-line2">
                                 <div class="quick-stats-tab-amount smaller-font">72%</div>
                                 <div class="quick-stats-tab-progress-bar border-radius"></div>
@@ -119,36 +120,38 @@
                     </div>
                 </section>
                 <!--quick-stats.css-->
+                <!--projection.css-->
                 <div class="projection tab-background-color tab-border content-margin">
                     <div class="line1 flex-and-space-between">
-                        <div class="name sectionNameColor tab-name-size">Projection</div>
-                        <div class="dot-menu"><i class="fas fa-ellipsis-h fa-lg dark"></i></div>
+                        <div class="dashboard-name">Projection</div>
+                        <div class="projection-dot-menu"><i class="fas fa-ellipsis-h fa-lg dark"></i></div>
                     </div>
                     <div class="line2">
-                        <div class="meanings">
-                            <div class="revenue">
-                                <div class="dot" style="background-color:#3794fc"></div>
+                        <div class="projection-meanings">
+                            <div class="projection-meanings-revenue">
+                                <div class="projection-meanings-revenue-dot" style="background-color:#3794fc"></div>
                                 Revenue
                             </div>
                             <div class="cost">
-                                <div class="dot" style="background-color:#9d60fb"></div>
+                                <div class="projection-meanings-revenue-dot" style="background-color:#9d60fb"></div>
                                 Cost
                             </div>
                         </div>
                     </div>                 
-                    <div class="table">
+                    <div class="projection-table">
                             <div id="chartContainer" style="height: 300px; width: 100%;"></div>
                             <div class="hider"></div>
                             <div class="hider2"></div>
                         </div>
                     </div>             
                 </div>
+                <!--projection.css-->
                 <div class="stats2">
                     <div class="wrapper content-margin flex-and-space-between">
                         <div class="tab1 tab-background-color tab-border border-radius tab-structure">
                             <div class="balance">
-                                <div class="first-row flex-and-space-between">
-                                    <div class="left sectionNameColor tab-name-size">Balance</div>
+                                <div class="first-row flex-and-space-between dashboard-name">
+                                    <div class="left">Balance</div>
                                     <div class="right"><img src="img/014-warning.svg" class="warning"></div>
                                 </div>
                                 <div class="amount">$183,927</div>
