@@ -1,3 +1,13 @@
+* {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+body {
+  height: 2509px;
+  font-family: Roboto, sans-serif;
+}
+
 .hover-color:hover {
   color: #d2ebfc;
 }
@@ -50,12 +60,8 @@
   color: #fff;
 }
 
-.column-border {
+.tab-border {
   border: solid 1px #283040;
-}
-
-.section-name-color {
-  color: #c4cfdd;
 }
 
 .content-margin {
@@ -74,11 +80,11 @@
   font-size: 16px;
 }
 
-.column-name-size {
+.tab-name-size {
   font-size: 20px;
 }
 
-.column-structure {
+.tab-structure {
   width: 263px;
   -webkit-box-shadow: 0 5px 10px -10px rgba(0, 0, 0, 0.5);
   box-shadow: 0 5px 10px -10px rgba(0, 0, 0, 0.5);
@@ -111,4 +117,17 @@
 
 .uppercasing {
   text-transform: uppercase;
+}
+
+.dashboard-name {
+  font-size: 20px;
+  color: #c4cfdd;
+  padding: 24px;
+}
+
+.wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 18px 0;
 }

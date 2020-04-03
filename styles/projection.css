@@ -1,0 +1,61 @@
+.projection {
+  height: 449px;
+  border-radius: 4px;
+  -webkit-box-shadow: 0 5px 10px -10px rgba(0, 0, 0, 0.5);
+  box-shadow: 0 5px 10px -10px rgba(0, 0, 0, 0.5);
+}
+
+.projection-dot-menu {
+  margin: 24px 24px 0 0;
+}
+
+.projection-meanings {
+  float: right;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-right: 32px;
+  margin-top: -8px;
+  margin-bottom: 18px;
+  font-size: 14px;
+}
+
+.projection-meanings-revenue {
+  margin-right: 16px;
+}
+
+.projection-meanings-revenue-dot {
+  margin-right: 8px;
+  height: 10px;
+  width: 10px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+}
+
+.dot-cost {
+  background-color: #9d60fb;
+}
+
+.dot-revenue {
+  background-color: #3794fc;
+}
+
+/* PROJECTION Table */
+
+.projection-table {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 1140px;
+  position: relative;
+  min-height: 150px;
+}
+
+.projection > .table > #chartContainer {
+  margin: 10px 30px 0 24px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 1140px;
+}

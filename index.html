@@ -4,193 +4,206 @@
         <meta name="description" content="">
         <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
         <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css">
-        <link rel="stylesheet" href="style.css">
-        <link rel="stylesheet" href="media.css">
-        <link rel="stylesheet" href="partials.css">
+        <link rel="stylesheet" href="styles/main.css">
+        <link rel="stylesheet" href="styles/media.css">
+        <link rel="stylesheet" href="styles/header.css">
+        <link rel="stylesheet" href="styles/navigation.css">
+        <link rel="stylesheet" href="styles/quick-stats.css">
+        <link rel="stylesheet" href="styles/projection.css">
+        <link rel="stylesheet" href="styles/balance.css">
+        <link rel="stylesheet" href="styles/visitors.css">
+        <link rel="stylesheet" href="styles/score.css">
+        <link rel="stylesheet" href="styles/overview.css">
+        <link rel="stylesheet" href="styles/announcment.css">
     </head>
     <body class="background-color font-color">
-        <section class="header content-margin container flex-and-space-between">
-            <div class="left flex-and-center">
-                <img src="img/logo.svg" class="logo">
-                <div class="menu"><img src="img/menu.svg"></div>
+        <!--header.css-->
+        <section class="header content-margin flex-and-space-between">
+            <div class="flex-and-center">
+                <img src="img/logo.svg" class="header-logo">
             </div>
-            <div class="right flex-and-center">
-                <div class="right-item"><img src="img/025-mail.svg" class="mail object-fit-contain-and-pointer"></div>
-                <div class="right-item"><img src="img/notif.svg" class="notification object-fit-contain-and-pointer"></div>
-                <div class="right-item"><img src="img/009-four.svg"class="four object-fit-contain-and-pointer"></div>                                                        
-                <div class="profile flex-and-center hover-color">
-                    <div class="drop-down"><i class="fas fa-chevron-down"></i></div>
-                    <div class="name">Luke Borwn</div>
+            <div class="flex-and-center">
+                <div class="header-right-item"><img src="img/025-mail.svg" class="object-fit-contain-and-pointer"></div>
+                <div class="header-right-item"><img src="img/notif.svg" class="object-fit-contain-and-pointer"></div>
+                <div class="header-right-item"><img src="img/009-four.svg"class="object-fit-contain-and-pointer"></div>                                                        
+                <div class="header-profile flex-and-center hover-color">
+                    <div class="profile-drop-down"><i class="fas fa-chevron-down"></i></div>
+                    <div class="profile-name">Luke Borwn</div>
                     <img src="img/avatar.png"
                         srcset="img/avatar@2x.png 2x,
                                 img/avatar@3x.png 3x"
-                        class="avatar object-fit-contain-and-pointer">
+                        class="profile-avatar object-fit-contain-and-pointer">
                 </div>
             </div>
         </section>
-             <nav class="navigation background-color">
+        <!--header.css-->
+        <!--navigation.css-->
+            <nav class="navigation navigation-active nav-active-block background-color">
                 <ul class="nav-content content-margin">
-                    <div class="burger">
+                    <div class="nav-burger">
                         <div class="line"></div>
                         <div class="line"></div>
                         <div class="line"></div>
                     </div>
-                    <li class="block">
+                    <li class="nav-content-block">
                         <div class="nav-links hover-color object-fit-contain-and-pointer">Dashboard
                                 <div class="rectangle"></div>
                         </div>
                     </li>
-                    <li class="block">
+                    <li class="nav-content-block">
                         <div class="nav-links hover-color object-fit-contain-and-pointer">Projects
                                 <div class="rectangle"></div>
                         </div>
                     </li>
-                    <li class="block">
+                    <li class="nav-content-block">
                         <div class="nav-links hover-color object-fit-contain-and-pointer">Invoices
                                 <div class="rectangle"></div>
                         </div>
                     </li>
-                    <li class="block">
+                    <li class="nav-content-block">
                         <div class="nav-links hover-color object-fit-contain-and-pointer">Documents
                                 <br><div class="rectangle"></div>
                         </div>
                     </li>
-                    <li class="block">
+                    <li class="nav-content-block">
                         <div class="nav-links hover-color object-fit-contain-and-pointer">Settings
                                 <div class="rectangle"></div>
                         </div>
                     </li>                                                      
                 </ul>       
             </nav>
-            <div class="overview">
+            <!--navigation.css-->
+            <!--overview.css-->
+            <section class="overview">
                 <div class="overview-name content-margin flex-and-space-between">
                     <div class="left">
-                        <div class="sub dark uppercasing">Overview</div>
-                        <div class="section">Dashboard</div>
+                        <div class="content-name dark uppercasing">Overview</div>
+                        <div class="overview-section">Dashboard</div>
                     </div>
-                    <div class="right">
-                        <div class="tree">Home / Dashboard / <span style="color: #D2EBFC">Overview</span></div>
-                    </div>    
+                    <div class="overview-tree">Home / Dashboard / 
+                        <span class="overview-tree-color">Overview</span>
+                    </div>
                 </div>
-                <div class="stats1 flex-and-center">
+                <!--overview.css-->
+                <!--quick-stats.css-->
+                <div class="quick-stats flex-and-center">
                     <div class="wrapper">
-                        <div class="column tab-background-color border-radius column-structure">
-                            <img src="img/001-dollar-symbol.svg" class="dollar-symbol icon">
-                            <div class="name column-name-size uppercasing">Budget</div> 
-                            <div class="line2">  
-                                <div class="amount">$129,850</div>
-                                <div class="percentage percentage-color"><p class="percentage-paragraph" >+15%</p></div>                     
+                        <div class="quick-stats-tab tab-background-color border-radius tab-structure">
+                            <img src="img/001-dollar-symbol.svg" class="dollar-symbol quick-stats-tab-icon">
+                            <div class="quick-stats-tab-name uppercasing">Budget</div> 
+                            <div class="quick-stats-tab-line2">  
+                                <div class="quick-stats-tab-amount">$129,850</div>
+                                <div class="quick-stats-tab-percentage percentage-color"><p class="percentage-paragraph" >+15%</p></div>                     
                             </div>                
                         </div>
-                        <div class="column tab-background-color border-radius column-structure">
-                            <img src="img/004-screwdriver-and-wrench-crossed.svg" class="screwdriver-and-wrench-crossed icon">
-                            <div class="line2"></div>                            
-                            <div class="name column-name-size uppercasing">Operations</div>
-                            <div class="line2">
-                                <div class="amount">15,000</div>
+                        <div class="quick-stats-tab tab-background-color border-radius tab-structure">
+                            <img src="img/004-screwdriver-and-wrench-crossed.svg" class="screwdriver-and-wrench-crossed quick-stats-tab-icon">
+                            <div class="quick-stats-tab-ine2"></div>                            
+                            <div class="quick-stats-tab-name uppercasing">Operations</div>
+                            <div class="quick-stats-tab-line2">
+                                <div class="quick-stats-tab-amount">15,000</div>
                             </div>
                         </div>
-                        <div class="column tab-background-color border-radius column-structure">
-                            <img src="img/002-move-arrows.svg" class="move-arrows icon">
-                            <div class="name column-name-size uppercasing">Requests</div>
-                            <div class="line2">
-                                <div class="amount">37.209</div>
-                                <div class="percentage percentage-color" style="background-image: linear-gradient(113deg, #fc381d, #db2f18)">
+                        <div class="quick-stats-tab tab-background-color border-radius tab-structure">
+                            <img src="img/002-move-arrows.svg" class="move-arrows quick-stats-tab-icon">
+                            <div class="quick-stats-tab-name uppercasing">Requests</div>
+                            <div class="quick-stats-tab-line2">
+                                <div class="quick-stats-tab-amount">37.209</div>
+                                <div class="quick-stats-tab-percentage percentage-color" style="background-image: linear-gradient(113deg, #fc381d, #db2f18)">
                                     <p class="percentage-paragraph">-21%</p>
                                 </div>
                             </div>
                         </div>
-                        <div class="column tab-background-color border-radius column-structure">
-                            <img src="img/003-clock-circular-outline.svg" class="clock-circular-outline icon">                            
-                            <div class="name column-name-size uppercasing">Progress</div>
-                            <div class="line2">
-                                <div class="amount smaller-font">72%</div>
-                                <div class="progress-bar border-radius"></div>
+                        <div class="quick-stats-tab tab-background-color border-radius tab-structure">
+                            <img src="img/003-clock-circular-outline.svg" class="clock-circular-outline quick-stats-tab-icon">                            
+                            <div class="quick-stats-tab-name uppercasing">Progress</div>
+                            <div class="quick-stats-tab-line2">
+                                <div class="quick-stats-tab-amount smaller-font">72%</div>
+                                <div class="quick-stats-tab-progress-bar border-radius"></div>
                             </div>   
                         </div>
                     </div>
-                </div>
-                <div class="projection tab-background-color column-border content-margin ">
+                </section>
+                <!--quick-stats.css-->
+                <!--projection.css-->
+                <div class="projection tab-background-color tab-border content-margin">
                     <div class="line1 flex-and-space-between">
-                        <div class="name sectionNameColor column-name-size">Projection</div>
-                        <div class="menu"><i class="fas fa-ellipsis-h fa-lg dark"></i></div>
+                        <div class="dashboard-name">Projection</div>
+                        <div class="projection-dot-menu"><i class="fas fa-ellipsis-h fa-lg dark"></i></div>
                     </div>
-                    <div class="line2">
-                        <div class="meanings">
-                            <div class="revenue">
-                                <div class="dot" style="background-color:#3794fc"></div>
-                                Revenue
-                            </div>
-                            <div class="cost">
-                                <div class="dot" style="background-color:#9d60fb"></div>
-                                Cost
-                            </div>
+                    <div class="projection-meanings">
+                        <div class="projection-meanings-revenue">
+                            <div class="projection-meanings-revenue-dot dot-revenue"></div>
+                            Revenue
                         </div>
-                    </div>                 
-                    <div class="table">
+                        <div class="cost">
+                            <div class="projection-meanings-revenue-dot dot-cost"></div>
+                            Cost
+                        </div>
+                    </div>
+                    <div class="projection-table">
                             <div id="chartContainer" style="height: 300px; width: 100%;"></div>
                             <div class="hider"></div>
                             <div class="hider2"></div>
                         </div>
                     </div>             
                 </div>
-                <div class="stats2">
-                    <div class="wrapper content-margin flex-and-space-between">
-                        <div class="column1 tab-background-color column-border border-radius column-structure">
-                            <div class="balance">
-                                <div class="first-row flex-and-space-between">
-                                    <div class="left sectionNameColor column-name-size">Balance</div>
-                                    <div class="right"><img src="img/014-warning.svg" class="warning"></div>
-                                </div>
-                                <div class="amount">$183,927</div>
-                                <div class="second-row flex-and-space-between">
-                                    <div class="left">
-                                        <div class="up smaller-font">Last Month</div>
-                                        <div class="down">$120,124</div>
-                                    </div>
-                                    <div class="right">
-                                        <div class="up smaller-font">This Month</div>
-                                        <div class="down">$203,890</div>
-                                    </div>
-                                </div>
-                                <div class="bottom">
-                                    <div class="percentage percentage-color"><p class="percentage-paragraph">+23.91%</p></div>                     
-                                </div>
+                <!--projection.css-->
+                <div class="wrapper content-margin flex-and-space-between">
+                    <!--balance.css-->
+                    <div class="balance tab-background-color tab-border border-radius tab-structure">
+                        <div class="first-row flex-and-space-between dashboard-name">
+                            <div>Balance</div>
+                            <div><img src="img/014-warning.svg" class="warning"></div>
+                        </div>
+                        <div class="balance-amount">$183,927</div>
+                        <div class="second-row flex-and-space-between">
+                            <div class="balance-before">
+                                <div class="balance-up smaller-font">Last Month</div>
+                                <div class="balance-down">$120,124</div>
+                            </div>
+                            <div class="balance-now">
+                                <div class="balance-up smaller-font">This Month</div>
+                                <div class="balance-down">$203,890</div>
                             </div>
                         </div>
-                        <div class="column2 tab-background-color column-border border-radius column-structure">
-                            <div class="visitors">Visitors</div>
-                        </div>
-                        <div class="column3 tab-background-color column-border border-radius column-structure">
-                            <div class="stats2-right">
-                                <div class="up">
-                                    <div class="score">score</div>
-                                </div>
-                                <div class="down">
-                                    <div class="blog">blog</div>
-                                </div> 
-                            </div>
+                        <div class="balance-increase">
+                            <div class="percentage percentage-color"><p class="percentage-paragraph">+23.91%</p></div>                     
                         </div>
                     </div>
-                </div>
-                <div class="stats3">
-                    <div class="data-center"></div>
-                    <div class="stats3 right">
-                        <div class="latest-commits"></div>
-                        <div class="operation-time"></div>
+                    <!--balance.css-->
+                    <!--visitors.css-->
+                    <div class="visitors tab-background-color tab-border border-radius tab-structure">
+                        <div>Visitors</div>
                     </div>
+                    <!--visitors.css-->
+                    <div class="tab-background-color tab-border border-radius tab-structure">
+                        <!--score.css-->
+                        <div class="score">
+                            <div>score</div>
+                        </div>
+                        <!--score.css-->
+                        <!--announcment.css-->
+                        <div class="announcment">
+                            <div>blog</div>
+                        </div>
+                        <!--announcment.css-->
+                    </div>
+                    <!-- these for a future use
                 </div>
+                    <div class="stats3">
+                        <div class="data-center"></div>
+                        <div class="stats3 right">
+                            <div class="latest-commits"></div>
+                            <div class="operation-time"></div>
+                        </div>
+                    </div>
                 <div class="latest-projects"></div>
+                    -->
             </div>
             <div class="footer">        
-        </div> 
-
-
-
-
-        
+        </div>         
         <script src="app.js"></script>
         <script src="https://canvasjs.com/assets/script/canvasjs.min.js"></script>
-
     </body>
 </html>

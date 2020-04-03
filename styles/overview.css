@@ -1,0 +1,23 @@
+.overview-name {
+  border-bottom: solid thin #424b5f;
+  padding-bottom: 16px;
+}
+
+.content-name {
+  font-size: 13px;
+}
+
+.overview-section {
+  font-size: 26px;
+  padding-top: 4px;
+}
+
+.overview-tree {
+  font-size: 17px;
+  margin-top: 25px;
+  cursor: pointer;
+}
+
+.overview-tree-color {
+  color: #d2ebfc;
+}
