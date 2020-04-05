@@ -1,21 +1,23 @@
 .balance {
-  width: 360px;
+  min-width: 360px;
 }
 
 .balance-amount {
-  width: 190px;
-  height: 61px;
+  width: 200px;
   font-size: 48px;
   color: #37c4fc;
-  margin: 10px 83px 0 83px;
+  margin: 10px auto 20px auto;
+  position: relative;
 }
 
-.balance-before {
+.balance-before-now {
   width: 180px;
-  height: 91px;
-  margin-top: 33px;
-  border-right: solid 1px #424b5f;
+  height: 81px;
   text-align: center;
+}
+
+.balance-border {
+  border-right: solid 1px #424b5f;
 }
 
 .balance-up {
@@ -27,16 +29,8 @@
   margin-top: 24px;
 }
 
-.balance-now {
-  width: 180px;
-  height: 91px;
-  margin-top: 33px;
-  text-align: center;
-}
-
 .balance-increase {
-  margin: 27px 121px 23px 121px;
-  text-align: center;
+  margin: 27px auto;
   font-size: 20px;
   position: relative;
   width: 118px;
