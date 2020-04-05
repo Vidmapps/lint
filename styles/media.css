@@ -1,4 +1,4 @@
-@media (min-width: 640px) {
+@media (min-width: 1px) {
   .wrapper {
     flex-wrap: wrap;
     align-content: center;
@@ -13,6 +13,10 @@
 
   .content-margin {
     margin: 20px 0;
+  }
+
+  .media-hide {
+    display: none;
   }
 
 }
