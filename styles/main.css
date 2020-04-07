@@ -113,3 +113,13 @@ body {
   color: #c4cfdd;
   padding: 24px;
 }
+
+.content-margin {
+  margin: 20px 10%;
+}
+
+.tab-structure {
+  width: 31%;
+  -webkit-box-shadow: 0 5px 10px -10px rgba(0, 0, 0, 0.5);
+  box-shadow: 0 5px 10px -10px rgba(0, 0, 0, 0.5);
+}

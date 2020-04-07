@@ -1,4 +1,5 @@
-@media (min-width: 1px) {
+/* switch to max-width and remove 1px */
+@media (max-width: 360px) {
   .wrapper {
     flex-wrap: wrap;
     align-content: center;
@@ -6,6 +7,12 @@
   }
 
   .tab-structure {
+    width: 100%;
+    -webkit-box-shadow: 0 5px 10px -10px rgba(0, 0, 0, 0.5);
+    box-shadow: 0 5px 10px -10px rgba(0, 0, 0, 0.5);
+  }
+
+  .quick-stats-tab-structure {
     width: 100%;
     -webkit-box-shadow: 0 5px 10px -10px rgba(0, 0, 0, 0.5);
     box-shadow: 0 5px 10px -10px rgba(0, 0, 0, 0.5);
@@ -33,37 +40,21 @@
 
 }
 
-@media (min-width: 768px) {
+@media (max-width: 768px) {
   
 
 }
 
-@media (min-width: 1080px) {
+@media (max-width: 1080px) {
  
 }
 
-@media (min-width: 1450px) {
-  .tab-structure {
-    width: 23%;
-    -webkit-box-shadow: 0 5px 10px -10px rgba(0, 0, 0, 0.5);
-    box-shadow: 0 5px 10px -10px rgba(0, 0, 0, 0.5);
-  }
+@media (max-width: 1450px) {
+  
 
-  .content-margin {
-    margin: 20px 10%;
-  }
+  
 
-  .nav-burger {
-    display: none;
-  }
-
-  .nav-content-block {
-    height: 40px;
-    color: #81accd;
-    float: left;
-    margin-right: 30px;
-    list-style: none;
-  }
+  
 }
 
 /* 
