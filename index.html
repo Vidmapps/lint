@@ -5,7 +5,6 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
         <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css">
-        <link rel="stylesheet" href="styles/media.css">
         <link rel="stylesheet" href="styles/main.css">
         <link rel="stylesheet" href="styles/header.css">
         <link rel="stylesheet" href="styles/navigation.css">
@@ -16,6 +15,7 @@
         <link rel="stylesheet" href="styles/score.css">
         <link rel="stylesheet" href="styles/overview.css">
         <link rel="stylesheet" href="styles/announcment.css">
+        <link rel="stylesheet" href="styles/media.css">
     </head>
     <body class="background-color font-color">
         <!--header.css-->
@@ -24,9 +24,9 @@
                 <img src="img/logo.svg" class="header-logo">
             </div>
             <div class="flex-and-center">
-                <div class="header-right-item media-hide"><img src="img/025-mail.svg" class="object-fit-contain-and-pointer"></div>
-                <div class="header-right-item media-hide"><img src="img/notif.svg" class="object-fit-contain-and-pointer"></div>
-                <div class="header-right-item media-hide"><img src="img/009-four.svg"class="object-fit-contain-and-pointer"></div>                                                        
+                <div class="header-right-item mobile-hide"><img src="img/025-mail.svg" class="object-fit-contain-and-pointer"></div>
+                <div class="header-right-item mobile-hide"><img src="img/notif.svg" class="object-fit-contain-and-pointer"></div>
+                <div class="header-right-item mobile-hide"><img src="img/009-four.svg"class="object-fit-contain-and-pointer"></div>                                                        
                 <div class="header-profile flex-and-center hover-color">
                     <div class="profile-drop-down"><i class="fas fa-chevron-down"></i></div>
                     <div class="profile-name">Luke Borwn</div>
@@ -39,38 +39,38 @@
         </section>
         <!--header.css-->
         <!--navigation.css-->
-            <nav class="navigation navigation-active background-color">
+            <nav class="navigation content-margin background-color">
                 <ul class="nav-content">
-                    <div class="nav-burger">
-                        <div class="line"></div>
-                        <div class="line"></div>
-                        <div class="line"></div>
+                    <div class="nav-burger object-fit-contain-and-pointer">
+                        <img src="img/menu-nav.svg" class="object-fit-contain-and-pointer">
                     </div>
-                    <li class="nav-content-block media-hide">
-                        <div class="nav-links hover-color object-fit-contain-and-pointer">Dashboard
-                                <div class="rectangle"></div>
-                        </div>
-                    </li>
-                    <li class="nav-content-block media-hide">
-                        <div class="nav-links hover-color object-fit-contain-and-pointer">Projects
-                                <div class="rectangle"></div>
-                        </div>
-                    </li>
-                    <li class="nav-content-block media-hide">
-                        <div class="nav-links hover-color object-fit-contain-and-pointer">Invoices
-                                <div class="rectangle"></div>
-                        </div>
-                    </li>
-                    <li class="nav-content-block media-hide">
-                        <div class="nav-links hover-color object-fit-contain-and-pointer">Documents
-                                <br><div class="rectangle"></div>
-                        </div>
-                    </li>
-                    <li class="nav-content-block media-hide">
-                        <div class="nav-links hover-color object-fit-contain-and-pointer">Settings
-                                <div class="rectangle"></div>
-                        </div>
-                    </li>                                                      
+                    <div class="nav-content-menu mobile-hide">
+                        <li class="nav-content-block ">
+                            <div class="nav-links hover-color object-fit-contain-and-pointer">Dashboard
+                                    <div class="rectangle"></div>
+                            </div>
+                        </li>
+                        <li class="nav-content-block">
+                            <div class="nav-links hover-color object-fit-contain-and-pointer">Projects
+                                    <div class="rectangle"></div>
+                            </div>
+                        </li>
+                        <li class="nav-content-block">
+                            <div class="nav-links hover-color object-fit-contain-and-pointer">Invoices
+                                    <div class="rectangle"></div>
+                            </div>
+                        </li>
+                        <li class="nav-content-block">
+                            <div class="nav-links hover-color object-fit-contain-and-pointer">Documents
+                                    <br><div class="rectangle"></div>
+                            </div>
+                        </li>
+                        <li class="nav-content-block">
+                            <div class="nav-links hover-color object-fit-contain-and-pointer">Settings
+                                    <div class="rectangle"></div>
+                            </div>
+                        </li>  
+                    </div>                                                    
                 </ul>       
             </nav>
             <!--navigation.css-->
