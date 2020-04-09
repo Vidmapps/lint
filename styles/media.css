@@ -1,7 +1,5 @@
 @media (max-width: 640px) {
   .wrapper {
-    flex-wrap: wrap;
-    align-content: center;
     flex-direction: column;
   }
 
