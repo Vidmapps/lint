@@ -1,4 +1,4 @@
-const navSlide = () => {
+const initializeMobileMenu = () => {
   const burger = document.querySelector('.nav-burger');
   const menu = document.querySelector('.nav-content-menu');
   const navigation = document.querySelector('.navigation');
@@ -9,7 +9,7 @@ const navSlide = () => {
   });
 };
 
-navSlide();
+initializeMobileMenu();
 
 
 // // CHART 1 ///////
