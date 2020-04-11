@@ -21,24 +21,22 @@
   display: flex;
 }
 
-.quick-stats-tab-percentage-red {
+.quick-stats-tab-percentage {
   margin: 4px 0 20px 17px;
   width: 57px;
   height: 24px;
   border-radius: 12px;
-  background-image: -o-linear-gradient(113deg, #51c81c, #48af1b);
-  background-image: linear-gradient(113deg, #51c81c, #48af1b);
   position: relative;
 }
 
-.quick-stats-tab-percentage-green {
-  margin: 4px 0 20px 17px;
-  width: 57px;
-  height: 24px;
-  border-radius: 12px;
+.percentage-red {
+  background-image: -o-linear-gradient(113deg, #51c81c, #48af1b);
+  background-image: linear-gradient(113deg, #51c81c, #48af1b);
+}
+
+.percentage-green {
   background-image: -o-linear-gradient(113deg, #fc381d, #db2f18);
   background-image: linear-gradient(113deg, #fc381d, #db2f18);
-  position: relative;
 }
 
 .percentage-paragraph {
