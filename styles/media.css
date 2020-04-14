@@ -1,90 +1,59 @@
-@media all and (max-width: 1400px) {
+@media (max-width: 640px) {
   .wrapper {
-    display: -ms-grid;
-    display: grid;
-    -ms-grid-columns: 1fr 10px 1fr 10px 1fr 10px 1fr;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-    grid-gap: 10px;
-    margin-right: 0%;
+    flex-direction: column;
   }
 
-  .quick-stats-tab-icon {
+  .header {
+    height: 56px;
+    margin: 0;
+  }
+
+  .tab-structure {
+    width: 100%;
+    -webkit-box-shadow: 0 5px 10px -10px rgba(0, 0, 0, 0.5);
+    box-shadow: 0 5px 10px -10px rgba(0, 0, 0, 0.5);
+  }
+
+  .quick-stats-tab-structure {
+    width: 100%;
+    -webkit-box-shadow: 0 5px 10px -10px rgba(0, 0, 0, 0.5);
+    box-shadow: 0 5px 10px -10px rgba(0, 0, 0, 0.5);
+  }
+
+  .mobile-hide {
     display: none;
-  }
-
-  .quick-stats-tab-percentage {
-    display: none;
-  }
-
-  .quick-stats-tab-progress-bar {
-    display: none;
-  }
-
-  .quick-stats-tab {
-    width: 190px;
-  }
-}
-
-@media all and (max-width: 1100px) {
-  .wrapper {
-    display: -ms-grid;
-    display: grid;
-    -ms-grid-columns: 1fr 10px 1fr;
-    grid-template-columns: 1fr 1fr;
-  }
-
-  .quick-stats-tab-icon {
-    display: unset;
-  }
-
-  .quick-stats-tab-percentage {
-    display: unset;
-  }
-
-  .quick-stats-tab-progress-bar {
-    display: unset;
-  }
-
-  .quick-stats-tab {
-    width: 290px;
-  }
-}
-
-@media all and (max-width: 768px) {
-  .navigation-active {
-    height: 240px;
-  }
-
-  .block {
-    opacity: 0;
-  }
-
-  .nav-active-block {
-    opacity: 1;
   }
 
   .nav-content-block {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-    -ms-flex-direction: column;
-    flex-direction: column;
+    height: 40px;
+    color: #81accd;
     float: none;
-    -webkit-transform: translateX(100%);
-    -ms-transform: translateX(100%);
-    transform: translateX(100%);
+    margin-right: 30px;
+    list-style: none;
   }
 
   .nav-burger {
-    display: block;
-    cursor: pointer;
+    float: right;
+    display: unset;
+    margin-right: 18px;
+    margin-top: -7px;
   }
 
-  .wrapper {
-    display: none;
-    -ms-grid-columns: 1fr;
-    grid-template-columns: 1fr;
+  .navigation {
+    height: 42px;
+    -webkit-box-shadow: 0 3px 10px -8px rgba(0, 0, 0, 0.24);
+    box-shadow: 0 3px 10px -8px rgba(0, 0, 0, 0.24);
+    background-image: -o-linear-gradient(358deg, #0b5289, #094370);
+    background-image: linear-gradient(92deg, #0b5289, #094370);
+    margin: 0 -16px 48px;
+    padding-left: 11%;
   }
+
+  .navigation-active {
+    height: 220px;
+  }
+}
+
+@media (max-width: 1080px) {
+
 }

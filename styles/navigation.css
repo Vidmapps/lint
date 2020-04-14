@@ -4,19 +4,17 @@
   box-shadow: 0 3px 10px -8px rgba(0, 0, 0, 0.24);
   background-image: -o-linear-gradient(358deg, #0b5289, #094370);
   background-image: linear-gradient(92deg, #0b5289, #094370);
-  margin-bottom: 48px;
+  margin: 0 -16px 48px;
+  padding-left: 11%;
+}
+
+.navigation-active {
+  height: 220px;
 }
 
 .nav-content {
   padding: 20px 0;
-}
-
-.nav-content-block {
-  height: 40px;
-  color: #81accd;
-  float: left;
-  margin-right: 30px;
-  list-style: none;
+  margin-block-start: 0;
 }
 
 .rectangle {
@@ -32,6 +30,14 @@
   height: 3px;
   background-color: #d2ebfc;
   margin: 5px;
+}
+
+.nav-content-block {
+  height: 40px;
+  color: #81accd;
+  float: left;
+  margin-right: 30px;
+  list-style: none;
 }
 
 .nav-burger {

@@ -1,17 +1,15 @@
-const navSlide = () => {
+const initializeMobileMenu = () => {
   const burger = document.querySelector('.nav-burger');
+  const menu = document.querySelector('.nav-content-menu');
   const navigation = document.querySelector('.navigation');
-  // const block = document.querySelectorAll('li.block');
 
   burger.addEventListener('click', () => {
+    menu.classList.toggle('mobile-hide');
     navigation.classList.toggle('navigation-active');
-    //  block.forEach(item => {
-    //    item.classList.toggle('block-active');
-    // });
   });
 };
 
-navSlide();
+initializeMobileMenu();
 
 
 // // CHART 1 ///////
