@@ -3,6 +3,12 @@
   margin: 10px 10%;
 }
 
+@media (max-width: 640px) {
+  .header {
+    margin: 0;
+  }
+}
+
 .header-logo {
   width: 64px;
   height: 36px;

@@ -8,8 +8,16 @@
   padding-left: 11%;
 }
 
-.navigation-active {
-  height: 220px;
+@media (max-width: 640px) {
+  .navigation {
+    height: 42px;
+  }
+}
+
+@media (max-width: 640px) {
+  .navigation-active {
+    height: 220px;
+  }
 }
 
 .nav-content {
@@ -40,6 +48,21 @@
   list-style: none;
 }
 
+@media (max-width: 640px) {
+  .nav-content-block {
+    float: none;
+  }
+}
+
 .nav-burger {
   display: none;
+}
+
+@media (max-width: 640px) {
+  .nav-burger {
+    float: right;
+    display: unset;
+    margin-right: 18px;
+    margin-top: -7px;
+  }
 }
