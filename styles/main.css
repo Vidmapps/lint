@@ -123,3 +123,19 @@ body {
   -webkit-box-shadow: 0 5px 10px -10px rgba(0, 0, 0, 0.5);
   box-shadow: 0 5px 10px -10px rgba(0, 0, 0, 0.5);
 }
+
+@media (max-width: 640px) {
+  .tab-structure {
+    width: 100%;
+  }
+}
+
+@media (max-width: 640px) {
+  .wrapper {
+    flex-direction: column;
+  }
+
+  .mobile-hide {
+    display: none;
+  }
+}
