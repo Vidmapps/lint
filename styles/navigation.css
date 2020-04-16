@@ -25,6 +25,13 @@
   margin-block-start: 0;
 }
 
+@media (max-width: 640px) {
+  .nav-content-mobile {
+    display: flex;
+    justify-content: flex-end;
+  }
+}
+
 .rectangle {
   width: 20px;
   height: 3px;
@@ -60,9 +67,9 @@
 
 @media (max-width: 640px) {
   .nav-burger {
-    float: right;
     display: unset;
     margin-right: 18px;
     margin-top: -7px;
+    order: 2;
   }
 }

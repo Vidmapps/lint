@@ -2,10 +2,14 @@ const initializeMobileMenu = () => {
   const burger = document.querySelector('.nav-burger');
   const menu = document.querySelector('.nav-content-menu');
   const navigation = document.querySelector('.navigation');
+  const navcontent = document.querySelector('.nav-content');
+  const navcontentmobile = document.querySelector('.nav-content-mobile');
 
   burger.addEventListener('click', () => {
     menu.classList.toggle('mobile-hide');
     navigation.classList.toggle('navigation-active');
+    navcontent.classList.toggle('flex-and-space-between');
+    navcontentmobile.classList.toggle('nav-content-mobile');
   });
 };
 
