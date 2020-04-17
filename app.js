@@ -7,6 +7,7 @@ const initializeMobileMenu = () => {
 
   burger.addEventListener('click', () => {
     menu.classList.toggle('mobile-hide');
+    menu.classList.toggle('flex-and-center');
     navigation.classList.toggle('navigation-active');
     navcontent.classList.toggle('flex-and-space-between');
     navcontentmobile.classList.toggle('nav-content-mobile');

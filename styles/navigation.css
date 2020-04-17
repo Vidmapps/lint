@@ -11,6 +11,7 @@
 @media (max-width: 640px) {
   .navigation {
     height: 42px;
+    margin: 0 -16px 0;
   }
 }
 
@@ -50,14 +51,13 @@
 .nav-content-block {
   height: 40px;
   color: #81accd;
-  float: left;
   margin-right: 30px;
   list-style: none;
 }
 
 @media (max-width: 640px) {
   .nav-content-block {
-    float: none;
+    ;
   }
 }
 
