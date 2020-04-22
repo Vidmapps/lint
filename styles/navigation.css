@@ -55,12 +55,6 @@
   list-style: none;
 }
 
-@media (max-width: 640px) {
-  .nav-content-block {
-    ;
-  }
-}
-
 .nav-burger {
   display: none;
 }
