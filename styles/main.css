@@ -142,3 +142,7 @@ body {
   flex-direction: column;
   justify-content: space-between;
 }
+
+.warning {
+  margin-left: 16px;
+}
