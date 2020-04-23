@@ -16,7 +16,6 @@
   justify-content: flex-end;
   margin-right: 32px;
   margin-top: -8px;
-  margin-bottom: 18px;
   font-size: 14px;
 }
 
@@ -47,7 +46,7 @@
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  width: 90%;
+  width: 100%;
   position: relative;
   min-height: 150px;
 }

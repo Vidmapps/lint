@@ -19,17 +19,15 @@ body {
   position: initial !important;
 }
 
-.hider {
-  width: 100px;
-  height: 13px;
-  background-color: #283040;
-  position: absolute;
-  bottom: 0;
-  left: 0;
-}
-
 .hider2 {
   width: 70px;
+  height: 35px;
+  background-color: #283040;
+  position: absolute;
+}
+
+.hider {
+  width: 50px;
   height: 20px;
   background-color: #283040;
   position: absolute;
@@ -145,4 +143,8 @@ body {
 
 .warning {
   margin-left: 16px;
+}
+
+.chart-position {
+  padding: 0 20px;
 }
