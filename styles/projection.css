@@ -51,9 +51,14 @@
   min-height: 150px;
 }
 
-.projection > .table > #chartContainer {
+#chartContainer {
   margin: 10px 30px 0 24px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+}
+
+.chart-container-1 {
+  height: 300px;
+  width: 95%;
 }
