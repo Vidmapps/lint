@@ -1,3 +1,9 @@
 .visitors {
+  height: 358px;
+  min-width: 350px;
+}
 
+.chart-container-2 {
+  height: 250px;
+  width: 90%;
 }
