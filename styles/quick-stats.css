@@ -66,5 +66,6 @@
 @media (max-width: 640px) {
   .quick-stats-tab-structure {
     width: 100%;
+    margin-top: 4px;
   }
 }

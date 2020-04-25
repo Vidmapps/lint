@@ -8,13 +8,17 @@
         <link rel="stylesheet" href="styles/main.css">
         <link rel="stylesheet" href="styles/header.css">
         <link rel="stylesheet" href="styles/navigation.css">
+        <link rel="stylesheet" href="styles/overview.css">
         <link rel="stylesheet" href="styles/quick-stats.css">
         <link rel="stylesheet" href="styles/projection.css">
         <link rel="stylesheet" href="styles/balance.css">
         <link rel="stylesheet" href="styles/visitors.css">
-        <link rel="stylesheet" href="styles/score.css">
-        <link rel="stylesheet" href="styles/overview.css">
-        <link rel="stylesheet" href="styles/announcment.css">
+        <link rel="stylesheet" href="styles/score-announcement.css">
+        <link rel="stylesheet" href="styles/data-centers.css">
+        <link rel="stylesheet" href="styles/commits-operation-time.css">
+        <link rel="stylesheet" href="styles/latest-projects.css">
+        <link rel="stylesheet" href="styles/latest-projects.css">
+        <link rel="stylesheet" href="styles/footer.css">
     </head>
     <body class="background-color font-color">
         <!--header.css-->
@@ -38,7 +42,7 @@
         </header>
         <!--header.css-->
         <!--navigation.css-->
-            <nav class="navigation content-margin background-color">
+            <nav class="navigation content-margin">
                 <ul class="nav-content nav-content-mobile">
                     <div class="nav-burger object-fit-contain-and-pointer">
                         <img src="img/menu-nav.svg" class="object-fit-contain-and-pointer">
@@ -161,7 +165,7 @@
                     </div>             
                 </div>
                 <!--projection.css-->
-                <div class="wrapper content-margin flex-and-space-between">
+                <div class="wrapper flex-and-space-between content-margin">
                     <!--balance.css-->
                     <div class="balance tab-background-color border-radius tab-structure">
                         <div class="first-row flex-and-space-between dashboard-name">
@@ -187,34 +191,62 @@
                     <!--balance.css-->
                     <!--visitors.css-->
                     <div class="visitors tab-background-color border-radius tab-structure">
-                        <div>Visitors</div>
+                        <div class="flex-and-space-between dashboard-name">
+                            <div>Visitors</div>
+                            <div><img src="img/014-warning.svg" class="warning"></div>
+                        </div>
                     </div>
                     <!--visitors.css-->
-                    <div class="tab-background-color border-radius tab-structure">
-                        <!--score.css-->
-                        <div class="score">
-                            <div>score</div>
+                     <!--score-announcement.css-->
+                    <div class="flex-column">
+                        <div class="score tab-background-color border-radius tab-structure">
+                            <div class="flex-and-space-between dashboard-name">
+                                <div>Score</div>
+                            </div>
                         </div>
-                        <!--score.css-->
-                        <!--announcment.css-->
-                        <div class="announcment">
-                            <div>blog</div>
+                        <div class="announcement tab-background-color border-radius tab-structure">
+                            <div class="flex-and-space-between dashboard-name">
+                                <div>blog</div>
+                            </div>
                         </div>
-                        <!--announcment.css-->
                     </div>
-                    <!-- these for a future use
+                    <!--score-announcement.css-->
+                    <!--data-centers.css-->
+                    <div class="data-centers tab-background-color border-radius tab-structure">
+                        <div class="flex-and-space-between dashboard-name">
+                            <div>Data Centers</div>
+                            <div><img src="img/014-warning.svg" class="warning"></div>
+                        </div>
+                    </div>
+                    <!--data-centers.css-->
+                    <!--commits-operation-time.css-->
+                    <div class="flex-column">
+                        <div class="latest-commits tab-background-color border-radius tab-structure">
+                            <div class=" flex-and-space-between dashboard-name">
+                                <div>Latest Commits</div>
+                                <div><img src="img/014-warning.svg" class="warning"></div>
+                            </div>
+                        </div>
+                        <div class="operation-time tab-background-color border-radius tab-structure">
+                            <div class="flex-and-space-between dashboard-name">
+                                <div>Average Operation Time</div>
+                            </div>
+                        </div>
+                    <!--commits-operation-time.css-->
                 </div>
-                    <div class="stats3">
-                        <div class="data-center"></div>
-                        <div class="stats3 right">
-                            <div class="latest-commits"></div>
-                            <div class="operation-time"></div>
-                        </div>
+                </div>
+                <!--latest-projects.css-->
+                <div class="latest-projects tab-background-color content-margin tab-structure">
+                    <div class="line1 flex-and-space-between">
+                        <div class="dashboard-name">Latest Projects</div>
+                        <div class="projection-dot-menu"><i class="fas fa-ellipsis-h fa-lg dark"></i></div>
                     </div>
-                <div class="latest-projects"></div>
-                    -->
+                </div>
+                <!--latest-projects.css-->
             </div>
-            <div class="footer">        
+            <!--footer.css-->
+            <div class="footer content-margin tab-background-color"></div>
+            <!--footer.css-->
         </div>         
         <script src="app.js"></script>
         <script src="https://canvasjs.com/assets/script/canvasjs.min.js"></script>

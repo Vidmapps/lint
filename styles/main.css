@@ -110,16 +110,21 @@ body {
   margin: 20px 10%;
 }
 
-.tab-structure {
-  width: 31%;
-  -webkit-box-shadow: 0 5px 10px -10px rgba(0, 0, 0, 0.5);
-  box-shadow: 0 5px 10px -10px rgba(0, 0, 0, 0.5);
+@media (max-width: 640px) {
+  .content-margin {
+    margin: 20px 0;
+  }
 }
 
 @media (max-width: 640px) {
   .tab-structure {
     width: 100%;
+    margin: 5px 0;
   }
+}
+
+.wrapper {
+  flex-wrap: wrap;
 }
 
 @media (max-width: 640px) {
@@ -130,4 +135,10 @@ body {
   .mobile-hide {
     display: none;
   }
+}
+
+.flex-column {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
