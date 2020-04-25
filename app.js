@@ -20,7 +20,7 @@ initializeMobileMenu();
 // // CHART 1 ///////
 
 window.onload = function () {
-  const chart = new CanvasJS.Chart('chartContainer', {
+  const chart1 = new CanvasJS.Chart('chartContainer1', {
     animationEnabled: true,
     theme: 'dark2',
     backgroundColor: '#283040',
@@ -54,7 +54,7 @@ window.onload = function () {
       valueFormatString: 'MMM DD',
       tickLength: 15,
       intervalType: 'day',
-      interval: 7,
+      interval: 14,
       tickColor: '#283040',
       minimum: new Date(2019, 1, 1),
       maximum: new Date(2019, 5, 16),
@@ -126,8 +126,76 @@ window.onload = function () {
     },
     ],
   });
-  chart.render();
+
+  const chart2 = new CanvasJS.Chart('chartContainer2', {
+    animationEnabled: true,
+    theme: 'dark2',
+    backgroundColor: '#283040',
+    title: {
+    },
+    dataPointWidth: 10,
+    axisY: {
+      name: 'amount',
+      includeZero: true,
+      gridColor: '#67758d',
+      gridThickness: 0.5,
+      gridDashType: 'dot',
+      labelFontSize: '18px',
+      labelFontColor: '#97a4ba',
+      lineThickness: 0.5,
+      lineColor: '#67758d',
+      interval: 40000,
+      valueFormatString: '#k,.',
+      tickLength: 15,
+      tickColor: '#283040',
+    },
+
+    axisX: {
+      name: 'date',
+      includeZero: false,
+      gridColor: '#67758d',
+      gridThickness: 0.5,
+      gridDashType: 'dot',
+      labelFontColor: '#97a4ba',
+      lineThickness: 0.5,
+      lineColor: '#67758d',
+      valueFormatString: 'MMM DD',
+      tickLength: 15,
+      intervalType: 'week',
+      interval: 4.5,
+      tickColor: '#283040',
+      minimum: new Date(2018, 11, 24),
+      maximum: new Date(2019, 3, 24),
+
+
+      /* minimum: new Date(2019, 01, 1),
+            maximum: new Date(2019, 04, 30) */
+    },
+
+    data: [{
+      name: 'Revenue',
+      type: 'column',
+      color: '#3a96fd',
+      dataPoints: [
+        { x: new Date(2019, 0, 1), y: 140000 },
+        { x: new Date(2019, 0, 8), y: 120000 },
+        { x: new Date(2019, 0, 15), y: 100000 /* indexLabel: "highest",markerColor: "red", markerType: "triangle" */ },
+        { x: new Date(2019, 0, 22), y: 120000 },
+        { x: new Date(2019, 1, 1), y: 90000 },
+        { x: new Date(2019, 1, 8), y: 100000 },
+        { x: new Date(2019, 1, 15), y: 110000 },
+        { x: new Date(2019, 1, 22), y: 90000 },
+        { x: new Date(2019, 2, 1), y: 130000 /* indexLabel: "lowest",markerColor: "DarkSlateGrey", markerType: "cross" */ },
+        { x: new Date(2019, 2, 8), y: 150000 },
+        { x: new Date(2019, 2, 15), y: 140000 },
+        { x: new Date(2019, 2, 22), y: 130000 },
+        { x: new Date(2019, 3, 1), y: 110000 },
+        { x: new Date(2019, 3, 8), y: 130000 },
+        { x: new Date(2019, 3, 15), y: 170000 },
+      ],
+    },
+    ],
+  });
+  chart2.render();
+  chart1.render();
 };
-
-
-//
