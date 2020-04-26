@@ -198,26 +198,30 @@ window.onload = function () {
   });
 
   const options = {
-    series: [67],
+    series: [85],
     chart: {
-      height: 350,
+      height: 180,
       type: 'radialBar',
-      offsetY: -10,
+      offsetY: 0,
+      color: '#37c4fc',
     },
     plotOptions: {
       radialBar: {
-        startAngle: -135,
-        endAngle: 135,
+        track: {
+          background: '#283040',
+        },
+        startAngle: -100,
+        endAngle: 100,
         dataLabels: {
           name: {
             fontSize: '16px',
             color: undefined,
-            offsetY: 120,
+            offsetY: 0,
           },
           value: {
-            offsetY: 76,
-            fontSize: '22px',
-            color: undefined,
+            offsetY: -16,
+            fontSize: '24px',
+            color: '#37c4fc',
             formatter(val) {
               return `${val}%`;
             },
@@ -229,7 +233,7 @@ window.onload = function () {
       type: 'gradient',
       gradient: {
         shade: 'dark',
-        shadeIntensity: 0.15,
+        shadeIntensity: 0,
         inverseColors: false,
         opacityFrom: 1,
         opacityTo: 1,
@@ -239,7 +243,7 @@ window.onload = function () {
     stroke: {
       dashArray: 4,
     },
-    labels: ['Median Ratio'],
+    labels: [''],
   };
 
   const chart3 = new ApexCharts(document.querySelector('#chart3'), options);
