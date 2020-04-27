@@ -1,6 +1,13 @@
 .visitors {
   height: 358px;
-  min-width: 350px;
+  width: 450px;
+}
+
+@media (max-width: 640px) {
+  .visitors {
+    height: 358px;
+    width: auto;
+  }
 }
 
 .chart-container-2 {
