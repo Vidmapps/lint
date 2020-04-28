@@ -11,17 +11,12 @@
   }
 }
 
-#chart {
-  width: 200px;
-  margin: 35px auto;
-}
-
 .score-left {
   width: 35%;
 }
 
 .speed-bar {
-  width: 65%;
+  width: 200px;
 }
 
 .score-points {
