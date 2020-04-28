@@ -70,8 +70,9 @@
   font-size: 12px;
   font-weight: 500;
   color: #51fbec;
+  cursor: pointer;
 }
 
-.announcment-image {
+.announcement-image {
   padding: 24px;
 }
