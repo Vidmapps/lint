@@ -196,6 +196,59 @@ window.onload = function () {
     },
     ],
   });
-  chart2.render();
+
+  const options = {
+    series: [85],
+    chart: {
+      height: 180,
+      type: 'radialBar',
+      offsetY: 0,
+      color: '#37c4fc',
+    },
+    plotOptions: {
+      radialBar: {
+        track: {
+          background: '#283040',
+        },
+        startAngle: -100,
+        endAngle: 100,
+        dataLabels: {
+          name: {
+            fontSize: '16px',
+            color: undefined,
+            offsetY: 0,
+          },
+          value: {
+            offsetY: -16,
+            fontSize: '24px',
+            color: '#37c4fc',
+            formatter(val) {
+              return `${val}%`;
+            },
+          },
+        },
+      },
+    },
+    fill: {
+      type: 'gradient',
+      gradient: {
+        shade: 'dark',
+        shadeIntensity: 0,
+        inverseColors: false,
+        opacityFrom: 1,
+        opacityTo: 1,
+        stops: [0, 50, 65, 91],
+      },
+    },
+    stroke: {
+      dashArray: 4,
+    },
+    labels: [''],
+  };
+
+  const chart3 = new ApexCharts(document.querySelector('#chart3'), options);
+
   chart1.render();
+  chart2.render();
+  chart3.render();
 };

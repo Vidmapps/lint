@@ -1,0 +1,33 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto);
+
+.score {
+  width: 300px;
+  height: 120px;
+}
+
+@media (max-width: 640px) {
+  .score {
+    width: auto;
+  }
+}
+
+.score-left {
+  width: 35%;
+}
+
+.speed-bar {
+  width: 200px;
+}
+
+.score-points {
+  padding: 0 24px;
+  font-size: 0.7em;
+}
+
+.score-change {
+  color: #51c81c;
+}
+
+.score-arrow {
+  margin-right: 10%;
+}
