@@ -1,0 +1,25 @@
+.dot-operational {
+  background-color: #36c3fb;
+}
+
+.dot-pending-setup {
+  background-color: #fcb41d;
+}
+
+.dot-upgrade {
+  background-color: #ee58fb;
+}
+
+.data-center-place {
+  padding: 0 24px 8px;
+}
+
+.data-center-locations-wrapper {
+  flex-wrap: wrap;
+}
+
+@media (max-width: 640px) {
+  .data-center-locations {
+    width: 50%;
+  }
+}
