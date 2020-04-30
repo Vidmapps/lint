@@ -11,8 +11,12 @@ body {
   color: #d2ebfc;
 }
 
-.dark {
+.color-dark {
   color: #67758d;
+}
+
+.color-light {
+  color: #c4cfdd;
 }
 
 .canvasjs-chart-credit {
@@ -28,7 +32,7 @@ body {
 
 .hider {
   width: 50px;
-  height: 20px;
+  height: 30px;
   background-color: #283040;
   position: absolute;
 }
@@ -47,10 +51,6 @@ body {
 
 .percentage-color {
   color: #fff;
-}
-
-.border-radius {
-  border-radius: 4px;
 }
 
 .smaller-font {
@@ -100,18 +100,23 @@ body {
 
 .dashboard-name {
   font-size: 20px;
-  color: #c4cfdd;
   padding: 24px;
 }
 
 .content-margin {
-  margin: 20px 10%;
+  margin: 0 10%;
 }
 
 @media (max-width: 640px) {
   .content-margin {
     margin: 20px 0;
   }
+}
+
+.tab-structure {
+  padding-bottom: 24px;
+  margin: 12px 0;
+  border-radius: 4px;
 }
 
 @media (max-width: 640px) {
@@ -146,5 +151,9 @@ body {
 }
 
 .chart-position {
-  padding: 0 20px;
+  padding: 18px 20px;
+}
+
+.text-padding {
+  padding: 24px 0 0 24px;
 }

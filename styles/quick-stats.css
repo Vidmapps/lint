@@ -59,6 +59,8 @@
 
 .quick-stats-tab-structure {
   width: 23%;
+  border-radius: 4px;
+  margin: 18px 0;
   -webkit-box-shadow: 0 5px 10px -10px rgba(0, 0, 0, 0.5);
   box-shadow: 0 5px 10px -10px rgba(0, 0, 0, 0.5);
 }
