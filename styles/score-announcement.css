@@ -1,8 +1,21 @@
 @import url(https://fonts.googleapis.com/css?family=Roboto);
 
+.score-announcement-flex-column {
+  display: flex;
+  flex-direction: column;
+  width: 22%;
+  height: 380px;
+}
+
+@media (max-width: 640px) {
+  .score-announcement-flex-column {
+    width: auto;
+    height: auto;
+  }
+}
+
 .score {
-  width: 300px;
-  height: 120px;
+  height: 34%;
 }
 
 @media (max-width: 640px) {
@@ -12,11 +25,7 @@
 }
 
 .score-left {
-  width: 35%;
-}
-
-.speed-bar {
-  width: 200px;
+  width: 30%;
 }
 
 .score-points {
@@ -33,14 +42,13 @@
 }
 
 .announcement {
-  background-image: linear-gradient(126deg, #1d74a3, #3491f8 100%);
-  height: 220px;
-  width: 300px;
+  height: auto;
 }
 
 @media (max-width: 640px) {
   .announcement {
     width: auto;
+    height: 40%;
   }
 }
 
@@ -69,5 +77,5 @@
 }
 
 .announcement-image {
-  padding: 24px;
+  padding: 0 12px;
 }

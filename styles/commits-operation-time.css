@@ -1,3 +1,15 @@
+.commits-operation-time-felx-column {
+  display: flex;
+  flex-direction: column;
+  width: 40%;
+}
+
+@media (max-width: 640px) {
+  .commits-operation-time-felx-column {
+    width: unset;
+  }
+}
+
 .commits-content {
   padding: 12px 24px;
   height: 38px;
@@ -7,18 +19,29 @@
   background-color: rgba(246, 249, 252, 0.03);
 }
 
-.latest-commits {
-  min-width: 360px;
-}
-
-@media (max-width: 640px) {
-  .latest-commits {
-    min-width: 300px;
-  }
-}
-
 .commits-view-all {
   padding: 24px 24px 0;
   font-size: 12px;
   color: #3491f8;
+}
+
+.operation-time {
+  height: 35%;
+}
+
+.operation-time-operations {
+  padding: 7px 24px;
+}
+
+.operation-time-diamond {
+  margin: auto;
+  font-size: 20px;
+}
+
+.operation-value {
+  font-size: 24px;
+}
+
+.operation-name {
+  font-weight: bold;
 }

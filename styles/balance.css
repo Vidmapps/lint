@@ -1,3 +1,13 @@
+.balance {
+  width: 30%;
+}
+
+@media (max-width: 640px) {
+  .balance {
+    width: auto;
+  }
+}
+
 .balance-amount {
   width: 200px;
   font-size: 48px;
