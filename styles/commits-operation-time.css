@@ -35,7 +35,8 @@
 
 .operation-time-diamond {
   margin: auto;
-  font-size: 20px;
+  font-size: 24px;
+  color: #3371ab;
 }
 
 .operation-value {
@@ -44,4 +45,17 @@
 
 .operation-name {
   font-weight: bold;
+  padding-right: 16px;
+}
+
+.operational-read-download-color {
+  color: #0ff;
+}
+
+.operational-write-color {
+  color: #a6ff00;
+}
+
+.operational-upload-color {
+  color: #fab7aa;
 }
