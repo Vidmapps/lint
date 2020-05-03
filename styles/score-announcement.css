@@ -29,7 +29,7 @@
 }
 
 .score-points {
-  padding: 0 24px;
+  padding-left: 24px;
   font-size: 0.7em;
 }
 
@@ -39,10 +39,6 @@
 
 .score-arrow {
   margin-right: 10%;
-}
-
-.announcement {
-  height: auto;
 }
 
 @media (max-width: 640px) {
