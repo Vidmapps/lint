@@ -46,9 +46,9 @@
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  width: 100%;
+  width: 95%;
   position: relative;
-  min-height: 150px;
+  height: 70%;
 }
 
 #chartContainer {

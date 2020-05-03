@@ -1,7 +1,7 @@
 .commits-operation-time-felx-column {
   display: flex;
   flex-direction: column;
-  width: 40%;
+  width: 45%;
 }
 
 @media (max-width: 640px) {
