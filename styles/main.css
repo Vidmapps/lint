@@ -49,6 +49,10 @@ body {
   background-color: #283040;
 }
 
+.tab-background-color-blue {
+  background-image: linear-gradient(126deg, #1d74a3, #3491f8 100%);
+}
+
 .percentage-color {
   color: #fff;
 }
@@ -140,12 +144,6 @@ body {
   }
 }
 
-.flex-column {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-}
-
 .warning {
   margin-left: 16px;
 }
@@ -155,5 +153,9 @@ body {
 }
 
 .text-padding {
-  padding: 24px 0 0 24px;
+  padding: 12px 0 0 16px;
+}
+
+.color-white {
+  color: #fff;
 }

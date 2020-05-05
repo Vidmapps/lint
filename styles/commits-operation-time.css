@@ -1,0 +1,70 @@
+.commits-operation-time-flex-column {
+  display: flex;
+  flex-direction: column;
+  width: 45%;
+}
+
+@media (max-width: 640px) {
+  .commits-operation-time-flex-column {
+    width: unset;
+  }
+}
+
+.commits-content {
+  padding: 12px 24px;
+  height: 38px;
+}
+
+.commits-content:nth-child(odd) {
+  background-color: rgba(246, 249, 252, 0.03);
+}
+
+.commits-view-all {
+  padding: 24px 24px 0;
+  font-size: 12px;
+  color: #3491f8;
+}
+
+.operation-time-operations {
+  padding: 7px 24px;
+}
+
+.operation-time-diamond {
+  margin: auto;
+  font-size: 24px;
+  color: #3371ab;
+}
+
+@media (max-width: 640px) {
+  .operation-time-diamond {
+    display: none;
+  }
+}
+
+@media (max-width: 640px) {
+  .operation-time-content {
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+.operation-value {
+  font-size: 24px;
+}
+
+.operation-name {
+  font-weight: bold;
+  padding-right: 16px;
+}
+
+.operational-read-download-color {
+  color: #0ff;
+}
+
+.operational-write-color {
+  color: #a6ff00;
+}
+
+.operational-upload-color {
+  color: #fab7aa;
+}
