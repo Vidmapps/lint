@@ -1,0 +1,21 @@
+.latest-projects {
+  width: 100%;
+}
+
+.lastest-projects-content {
+  padding: 0 24px;
+  font-size: 14px;;
+}
+
+.latest-projects-table-header {
+  background-color: rgba(246, 249, 252, 0.03);
+  height: 50px;
+  align-items: center;
+  padding: 0 16px;
+}
+
+.latest-projects-list {
+  height: 49px;
+  align-items: center;
+  padding: 0 16px;
+}
