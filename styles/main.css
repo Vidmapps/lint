@@ -159,3 +159,19 @@ body {
 .color-white {
   color: #fff;
 }
+
+.text-blue {
+  color: #3491f8;
+}
+
+.color-completed {
+  color: #56c1ff;
+}
+
+.color-pending {
+  color: #e260fa;
+}
+
+.color-canceled {
+  color: #ef3e26;
+}
