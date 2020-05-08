@@ -6,6 +6,14 @@
   font-size: 14px;
   width: 100%;
   border-collapse: collapse;
+  overflow-x: auto;
+  white-space: nowrap;
+}
+
+@media (max-width: 640px) {
+  .lastest-projects-content {
+    display: block;
+  }
 }
 
 .latest-projects-table-header {
