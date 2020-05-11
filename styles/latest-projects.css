@@ -1,0 +1,56 @@
+.latest-projects {
+  width: 100%;
+}
+
+.latest-projects-content {
+  font-size: 14px;
+  width: 100%;
+  border-collapse: collapse;
+  overflow-x: auto;
+  white-space: nowrap;
+}
+
+@media (max-width: 640px) {
+  .latest-projects-content {
+    display: block;
+  }
+}
+
+.latest-projects-table-header {
+  background-color: rgba(246, 249, 252, 0.03);
+  height: 50px;
+}
+
+.latest-projects-list {
+  height: 49px;
+  border-bottom: 1px solid #212938;
+}
+
+.latest-projects-name {
+  padding-left: 16px;
+}
+
+.latest-projects-list-name {
+  padding: 10px;
+}
+
+.latest-projects-list-icon {
+  padding-right: 10px;
+}
+
+.latest-projects-content-padding {
+  padding: 0 24px;
+}
+
+.latest-projects-footer {
+  font-size: 12px;
+  padding: 15px 24px 0;
+}
+
+.latest-projects-entries-previous {
+  padding-right: 16px;
+}
+
+.latest-project-thead {
+  text-align: left;
+}
