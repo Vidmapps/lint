@@ -92,9 +92,7 @@ body {
   align-items: center;
 }
 
-.object-fit-contain-and-pointer {
-  -o-object-fit: contain;
-  object-fit: contain;
+.pointer {
   cursor: pointer;
 }
 
