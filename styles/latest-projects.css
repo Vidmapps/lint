@@ -23,7 +23,7 @@
 
 .latest-projects-list {
   height: 49px;
-  border-bottom: solid #212938 1px;
+  border-bottom: 1px solid #212938;
 }
 
 .latest-projects-name {
