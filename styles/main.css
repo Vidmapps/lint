@@ -7,10 +7,6 @@ body {
   font-family: Roboto, sans-serif;
 }
 
-thead {
-  text-align: left;
-}
-
 .hover-color:hover {
   color: #d2ebfc;
 }

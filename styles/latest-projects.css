@@ -50,3 +50,7 @@
 .latest-projects-entries-previous {
   padding-right: 16px;
 }
+
+.latest-project-thead {
+  text-align: left;
+}
