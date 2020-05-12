@@ -37,8 +37,8 @@
   width: 20px;
   height: 3px;
   border-radius: 2px;
-  background-color: linear-gradient(92deg, #0b5289, #094370);
   margin-top: 18px;
+  justify-content: center;
 }
 
 .nav-burger .line {
@@ -55,6 +55,10 @@
   list-style: none;
 }
 
+.nav-content-block:hover .rectangle {
+  background-color: #d1eafc;
+}
+
 .nav-burger {
   display: none;
 }
@@ -66,4 +70,10 @@
     margin-top: -7px;
     order: 2;
   }
+}
+
+.nav-links {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
