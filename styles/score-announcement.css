@@ -41,6 +41,10 @@
   margin-right: 10%;
 }
 
+.score-period {
+  width: 62px;
+}
+
 @media (max-width: 640px) {
   .announcement {
     width: auto;
