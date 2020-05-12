@@ -16,6 +16,7 @@
 
 .score {
   height: 34%;
+  flex-grow: 1;
 }
 
 @media (max-width: 640px) {
