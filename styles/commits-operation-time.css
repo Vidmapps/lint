@@ -30,6 +30,10 @@
   font-size: 12px;
 }
 
+.commits-time-added {
+  padding: 0 59px 0 0;
+}
+
 .operation-time-operations {
   padding: 7px 24px;
 }
