@@ -92,8 +92,9 @@ body {
   align-items: center;
 }
 
-.pointer {
+.pointer:hover {
   cursor: pointer;
+  opacity: 0.6;
 }
 
 .uppercasing {
