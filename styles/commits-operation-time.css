@@ -12,7 +12,6 @@
 
 .commits-content {
   padding: 12px 24px;
-  height: 38px;
 }
 
 .commits-content:hover .fa-angle-right {
@@ -30,8 +29,13 @@
   display: inline-block;
 }
 
+.commits-time-added {
+  padding: 0 59px 0 0;
+}
+
 .operation-time-operations {
   padding: 7px 24px;
+  display: block;
 }
 
 .operation-time-diamond {

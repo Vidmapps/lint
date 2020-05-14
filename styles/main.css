@@ -92,8 +92,9 @@ body {
   align-items: center;
 }
 
-.pointer {
+.pointer, .pointer:hover {
   cursor: pointer;
+  opacity: 0.6;
 }
 
 .uppercasing {
@@ -172,4 +173,10 @@ body {
 
 .color-canceled {
   color: #ef3e26;
+}
+
+.text-overflow {
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
 }

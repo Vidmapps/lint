@@ -49,12 +49,23 @@
   transform: translate(-50%, -50%);
 }
 
-.quick-stats-tab-progress-bar {
-  margin: 20px 0 20px 15px;
+progress {
+  margin: 20px 20px 20px 15px;
   height: 8px;
-  background-image: -o-linear-gradient(356deg, #3794fc, #237bdd);
-  background-image: linear-gradient(94deg, #3794fc, #237bdd);
-  width: 60%;
+  border: 0;
+  border-radius: 30px;
+}
+
+progress::-webkit-progress-bar {
+  background-color: #dee5ef;
+  border: 0;
+  border-radius: 30px;
+}
+
+progress::-webkit-progress-value {
+  background-color: #237bdd;
+  border: 0;
+  border-radius: 30px;
 }
 
 .quick-stats-tab-structure {

@@ -16,6 +16,7 @@
 
 .score {
   height: 34%;
+  flex-grow: 1;
 }
 
 @media (max-width: 640px) {
@@ -39,6 +40,10 @@
 
 .score-arrow {
   margin-right: 10%;
+}
+
+.score-period {
+  width: 62px;
 }
 
 @media (max-width: 640px) {
