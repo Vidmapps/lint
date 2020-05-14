@@ -17,7 +17,6 @@
 .commits-content:hover .fa-angle-right {
   -webkit-animation: bounce-right 1s;
   animation: bounce-right 1s;
-  float: right;
 }
 
 .commits-content:nth-child(odd) {
@@ -27,6 +26,7 @@
 .commits-view-all {
   padding: 24px 24px 0;
   font-size: 12px;
+  display: inline-block;
 }
 
 .commits-time-added {
