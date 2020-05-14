@@ -4,7 +4,14 @@
   display: flex;
   flex-direction: column;
   width: 22%;
-  height: 380px;
+}
+
+@media (max-width: 1200px) {
+  .score-announcement-flex-column {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+  }
 }
 
 @media (max-width: 640px) {
@@ -19,9 +26,17 @@
   flex-grow: 1;
 }
 
+@media (max-width: 1200px) {
+  .score {
+    width: 38%;
+    flex-grow: 0;
+    height: unset;
+  }
+}
+
 @media (max-width: 640px) {
   .score {
-    width: auto;
+    width: 100%;
   }
 }
 
@@ -44,6 +59,12 @@
 
 .score-period {
   width: 62px;
+}
+
+@media (max-width: 1200px) {
+  .announcement {
+    width: 59%;
+  }
 }
 
 @media (max-width: 640px) {

@@ -2,6 +2,12 @@
   width: 30%;
 }
 
+@media (max-width: 1200px) {
+  .balance {
+    width: 39%;
+  }
+}
+
 @media (max-width: 640px) {
   .balance {
     width: auto;
