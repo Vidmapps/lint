@@ -92,7 +92,11 @@ body {
   align-items: center;
 }
 
-.pointer, .pointer:hover {
+.pointer {
+  cursor: pointer;
+}
+
+.pointer:hover {
   cursor: pointer;
   opacity: 0.6;
 }
