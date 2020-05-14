@@ -71,15 +71,20 @@ progress::-webkit-progress-value {
 .quick-stats-tab-structure {
   width: 23%;
   border-radius: 4px;
-  margin: 18px 0;
+  margin: 9px 0;
   -webkit-box-shadow: 0 5px 10px -10px rgba(0, 0, 0, 0.5);
   box-shadow: 0 5px 10px -10px rgba(0, 0, 0, 0.5);
+}
+
+@media (max-width: 1200px) {
+  .quick-stats-tab-structure {
+    width: 48%;
+  }
 }
 
 @media (max-width: 640px) {
   .quick-stats-tab-structure {
     width: 100%;
-    margin-top: 4px;
   }
 }
 
