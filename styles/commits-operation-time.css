@@ -44,19 +44,6 @@
   color: #3371ab;
 }
 
-@media (max-width: 640px) {
-  .operation-time-diamond {
-    display: none;
-  }
-}
-
-@media (max-width: 640px) {
-  .operation-time-content {
-    display: flex;
-    flex-direction: column;
-  }
-}
-
 .operation-value {
   font-size: 24px;
 }
