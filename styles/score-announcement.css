@@ -29,7 +29,7 @@
 
 @media (max-width: 1200px) {
   .score {
-    width: 38%;
+    width: 39%;
     flex-grow: 0;
     height: unset;
   }
@@ -64,7 +64,7 @@
 
 @media (max-width: 1200px) {
   .announcement {
-    width: 59%;
+    width: 58%;
   }
 }
 

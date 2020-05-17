@@ -4,9 +4,60 @@
   width: 45%;
 }
 
+@media (max-width: 900px) {
+  .commits-operation-time-flex-column {
+    width: 100%;
+    flex-direction: row;
+  }
+}
+
 @media (max-width: 640px) {
   .commits-operation-time-flex-column {
     width: unset;
+    flex-direction: column;
+  }
+}
+
+@media (max-width: 900px) {
+  .latest-commits {
+    width: 65%;
+  }
+}
+
+@media (max-width: 640px) {
+  .latest-commits {
+    width: 100%;
+    flex-direction: row;
+  }
+}
+
+@media (max-width: 900px) {
+  .operation-time {
+    width: 32%;
+  }
+}
+
+@media (max-width: 640px) {
+  .operation-time {
+    width: 100%;
+  }
+}
+
+@media (max-width: 900px) {
+  .operation-time-content {
+    flex-wrap: wrap;
+  }
+}
+
+@media (max-width: 640px) {
+  .operation-time-content {
+    flex-wrap: nowrap;
+  }
+}
+
+@media (max-width: 900px) {
+  .operation-time-content-half {
+    width: 100%;
   }
 }
 
@@ -42,6 +93,12 @@
   margin: auto;
   font-size: 24px;
   color: #3371ab;
+}
+
+@media (max-width: 900px) {
+  .operation-time-diamond {
+    display: none;
+  }
 }
 
 .operation-value {
