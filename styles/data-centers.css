@@ -1,5 +1,5 @@
 .data-centers {
-  width: 53%;
+  width: 52%;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -29,6 +29,12 @@
 @media (max-width: 640px) {
   .data-centers-locations {
     width: 50%;
+  }
+}
+
+@media (max-width: 900px) {
+  .data-centers {
+    width: 100%;
   }
 }
 

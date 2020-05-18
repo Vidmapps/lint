@@ -2,6 +2,12 @@
   width: 44%;
 }
 
+@media (max-width: 1200px) {
+  .visitors {
+    width: 58%;
+  }
+}
+
 @media (max-width: 640px) {
   .visitors {
     height: 358px;

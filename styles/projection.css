@@ -1,6 +1,7 @@
 .projection {
   height: 420px;
   border-radius: 4px;
+  width: 100%;
   -webkit-box-shadow: 0 5px 10px -10px rgba(0, 0, 0, 0.5);
   box-shadow: 0 5px 10px -10px rgba(0, 0, 0, 0.5);
 }
