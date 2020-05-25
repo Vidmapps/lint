@@ -17,11 +17,10 @@
 
 @media (max-width: 640px) {
   .navigation-active {
-    height: 240px;
+    height: 260px;
     position: absolute;
     z-index: 1;
     width: 104%;
-    transition: height 0.5s ease;
     opacity: 1;
   }
 }
@@ -92,6 +91,9 @@
 @media (max-width: 640px) {
   .nav-content-menu {
     padding-top: 21px;
+    transition-duration: 1s;
+    opacity: 1;
+    width: 100%;
   }
 }
 
