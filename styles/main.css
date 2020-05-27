@@ -146,6 +146,10 @@ body {
   .mobile-hide {
     display: none;
   }
+
+  .mobile-display {
+    display: initial;
+  }
 }
 
 .warning {

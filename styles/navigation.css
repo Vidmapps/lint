@@ -17,7 +17,11 @@
 
 @media (max-width: 640px) {
   .navigation-active {
-    height: 220px;
+    height: 260px;
+    position: absolute;
+    z-index: 1;
+    width: 104%; /* TODO - check for the other solutions to fix the width */
+    opacity: 1;
   }
 }
 
@@ -76,4 +80,26 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+}
+
+@media (max-width: 640px) {
+  .nav-links {
+    align-items: unset;
+  }
+}
+
+@media (max-width: 640px) {
+  .nav-content-menu {
+    padding-top: 21px;
+    width: 100%;
+  }
+}
+
+.fa-times {
+  color: #81accd;
+  font-size: 20px;
+}
+
+.nav-content-hidden-block {
+  height: 42px;
 }
