@@ -20,7 +20,7 @@
     height: 260px;
     position: absolute;
     z-index: 1;
-    width: 104%;
+    width: 104%; /* TODO - check for the other solutions to fix the width */
     opacity: 1;
   }
 }
