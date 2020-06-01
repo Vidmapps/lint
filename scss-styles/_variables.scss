@@ -1,0 +1,116 @@
+//
+// Variables
+// --------------------------------------------------
+
+//Fonts
+$font-main: roboto, sans-serif;
+
+//Colors
+$color-hover:                   #d2ebfc;
+$color-dark:                    #67758d;
+$color-light:                   #c4cfdd;
+$color-tab-background:          #283040;
+$color-main-font:               #97a4ba;
+$color-blue-tab-background:     linear-gradient(126deg, #1d74a3, #3491f8 100%);
+$color-white:                   #fff;
+$color-blue-text:               #3491f8;
+$color-completed:               #56c1ff;
+$color-pending:                 #e260fa;
+$color-canceled:                #ef3e26;
+$color-balance-border:          solid 1px #424b5f;
+$color-operation-time-diamond:  #3371ab;
+$color-read-download:           #0ff;
+$color-write:                   #a6ff00;
+$color-upload:                  #fab7aa;
+$color-projects-table-header:   rgba(246, 249, 252, 0.03);
+$color-latest-projects-list:    1px solid #212938;
+
+//Font-sizes
+$size-sm-font:                          16px;
+$size-name:                             20px;
+$size-balance-amount:                   48px;
+$size-balance-increase:                 20px;
+$size-commits-view-all:                 12px;
+$size-operation:                        24px;
+$size-latest-projects-content:          14px;
+$size-latest-projects-footer:           12px;
+
+//Margins
+$margin-content:                0 10%;
+$margin-content-xs:             20px 0;
+$margin-tab:                    12px 0;
+$margin-tab-xs:                 5px 0;
+$margin-warning:                16px;
+$margin-balance-amount:         10px auto 20px auto;
+$margin-balance-up:             9px;
+$margin-balance-down:           24px 0 8px;
+$margin-balance-increase:       27px auto 0;
+$margin-footer-section:         20px 30px 0 0;
+$margin-footer-section-xs:      20px auto;
+$margin-footer-section-xs:      20px auto;
+$margin-header:                 10px 10%;
+$margin-header-xs:              0;
+$margin-header-right-item:      0 32px 0 0;
+$margin-profile-avatar:         0 0 0 10px;
+$margin-navigation:             0 -16px 48;
+$margin-navigation-xs:          0 -16px 0;
+
+//Paddings
+$padding-dashboard-name:                    24px;
+$padding-tab:                               0 0 24px 0;
+$padding-chart-position:                    18px 20px;
+$padding-text:                              12px 0 0 16px;
+$padding-commits-content:                   12px 24px;
+$padding-commits-view-all:                  24px 24px 0;
+$padding-commits-time-added:                0 59px 0 0;
+$padding-commits-time-operations:           7px 24px;
+$padding-right:                             0 16px 0 0;
+$padding-data-centers-place:                0 24px 8px;
+$padding-data-centers-locations-wrapper:    20px 0 0 0;
+$padding-header-menu:                       0 59px 0 0;
+$padding-latest-projects-name:              0 0 0 16px;
+$padding-latest-projects-list:              10px 25px 10px 10px;
+$padding-latest-projects-list-icon:         0 10px 0 0;
+$padding-latest-projects-list-project:      0 25px 0 0;
+$padding-latest-projects-list-content:      0 24px;
+$padding-latest-projects-footer:            15px 24px 0;
+$padding-nav-content:                       20px 0;
+
+//Widths
+$width-full:                100%;
+$width-30:                  30%;
+$width-32:                  32%;
+$width-45:                  45%;
+$width-50:                  50%;
+$width-52:                  52%;
+$width-65:                  65%;
+$width-balance-md:          39%;
+$width-balance-amount:      200px;
+$width-balance-before-now:  180px;
+$width-balance-increase:    118px;
+$width-header-logo:         64px;
+$width-header-menu:         20px;
+
+//Heights
+$height-balance-before-now: 81px;
+$height-balance-increase:   38px;
+$height-footer:             60px;
+$height-header:             56px;
+$height-header-logo:        36px;
+$height-header-menu:        14px;
+$height-profile-avatar:     10px;
+$height-projects:           50px;
+$height-navigation:         60px;
+$height-navigation-xs:      42px;
+$height-navigation-active:  260px;
+
+//Borders-radius
+$border-radius: 19px;
+
+//== Media queries breakpoints
+// Extra small screen / phone
+$screen-xs: 640px;
+// Small screen / tablet
+$screen-sm: 900px;
+// Medium screen / desktop
+$screen-md: 1200px;
