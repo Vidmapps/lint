@@ -24,6 +24,11 @@ $color-write:                   #a6ff00;
 $color-upload:                  #fab7aa;
 $color-projects-table-header:   rgba(246, 249, 252, 0.03);
 $color-latest-projects-list:    1px solid #212938;
+$color-dot-cost:                #9d60fb;
+$color-dot-revenue:             #3794fc;
+$color-progress:                #dee5ef;
+$color-announcement-text:       #97d4f0;
+$color-announcement-read-more:  #51fbec;
 
 //Font-sizes
 $size-sm-font:                          16px;
@@ -34,6 +39,11 @@ $size-commits-view-all:                 12px;
 $size-operation:                        24px;
 $size-latest-projects-content:          14px;
 $size-latest-projects-footer:           12px;
+$size-overview-content-name:            13px;
+$size-overview-section:                 26px;
+$size-overview-tree:                    17px;
+$size-quick-stats-tab-name:             15px;
+$size-quick-stats-tab-amount:           28px;
 
 //Margins
 $margin-content:                0 10%;
@@ -54,6 +64,21 @@ $margin-header-right-item:      0 32px 0 0;
 $margin-profile-avatar:         0 0 0 10px;
 $margin-navigation:             0 -16px 48;
 $margin-navigation-xs:          0 -16px 0;
+$margin-content-block:          0 30px 0 0;
+$margin-nav-burger-xs:          -7px 18px 0 0;
+$margin-overview-name:          0 0 18px 0;
+$margin-overview-tree:          25px 0 0 0;
+$margin-overview-tree-mobile:   16px 0 0 0;
+$margin-projection-dot-menu:    24px 24px 0 0;
+$margin-projection-meanings:    -8px 24px 0 0;
+$margin-projection-first:       0 16px 0 0;
+$margin-projection-rev-dot:     0 8px 0 0;
+$margin-chart-container:        10px 30px 0 24px;
+$margin-quick-stats-tab-icon:   10px 10px 0 20px;
+$margin-quick-stats-tab-amount: 0 0 20px 20px;
+$margin-quick-stats-tab-percent:4px 0 20px 17px;
+$margin-percentage-paragraph:   0 -50% 0 0;
+$margin-quick-stats-tab-:       9px 0;
 
 //Paddings
 $padding-dashboard-name:                    24px;
@@ -75,37 +100,64 @@ $padding-latest-projects-list-project:      0 25px 0 0;
 $padding-latest-projects-list-content:      0 24px;
 $padding-latest-projects-footer:            15px 24px 0;
 $padding-nav-content:                       20px 0;
+$padding-nav-content-menu:                  21px 0 0 0;
+$padding-overview-name:                     0 0 16px 0;
+$padding-overview-content-name:             15px 0 0 0;
+$padding-overview-section:                  4px 0 0 0;
+$padding-quick-stats-tab-name:              20px 20px 16px 20px;
+$padding-announcement-image:                0 12px;
 
 //Widths
-$width-full:                100%;
-$width-30:                  30%;
-$width-32:                  32%;
-$width-45:                  45%;
-$width-50:                  50%;
-$width-52:                  52%;
-$width-65:                  65%;
-$width-balance-md:          39%;
-$width-balance-amount:      200px;
-$width-balance-before-now:  180px;
-$width-balance-increase:    118px;
-$width-header-logo:         64px;
-$width-header-menu:         20px;
+$width-full:                        100%;
+$width-23:                          23%;
+$width-30:                          30%;
+$width-32:                          32%;
+$width-39:                          39%;
+$width-45:                          45%;
+$width-48:                          48%;
+$width-50:                          50%;
+$width-52:                          52%;
+$width-58:                          58%;
+$width-65:                          65%;
+$width-90:                          90%;
+$width-95:                          95%;
+$width-balance-md:                  39%;
+$width-balance-amount:              200px;
+$width-balance-before-now:          180px;
+$width-balance-increase:            118px;
+$width-header-logo:                 64px;
+$width-header-menu:                 20px;
+$width-projection-rev-dot:          10px;
+$width-quick-stats-tab-percent:     57px;
 
 //Heights
-$height-balance-before-now: 81px;
-$height-balance-increase:   38px;
-$height-footer:             60px;
-$height-header:             56px;
-$height-header-logo:        36px;
-$height-header-menu:        14px;
-$height-profile-avatar:     10px;
-$height-projects:           50px;
-$height-navigation:         60px;
-$height-navigation-xs:      42px;
-$height-navigation-active:  260px;
+$height-balance-before-now:     81px;
+$height-balance-increase:       38px;
+$height-footer:                 60px;
+$height-header:                 56px;
+$height-header-logo:            36px;
+$height-header-menu:            14px;
+$height-profile-avatar:         10px;
+$height-projects:               50px;
+$height-navigation:             60px;
+$height-navigation-xs:          42px;
+$height-navigation-active:      260px;
+$height-nav-content-block:      40px;
+$height-projection:             420px;
+$height-34:                     34%;
+$height-40:                     40%;
+$height-70:                     70%;
+$height-quick-stats-tab-percent:24px;
+$height-visitors-xs:            358px;
+$height-chart-container-2:      220px;
 
 //Borders-radius
-$border-radius: 19px;
+$border-radius:                     19px;
+$border-radius-projection:          4px;
+$border-projection-rev-dot:         50%;
+$border-quick-stats-tab-percent:    12px;
+$border:                            0;
+$border-progress:                   30px;
 
 //== Media queries breakpoints
 // Extra small screen / phone
