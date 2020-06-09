@@ -31,21 +31,18 @@ $color-announcement-text:       #97d4f0;
 $color-announcement-read-more:  #51fbec;
 
 //Font-sizes
-$size-sm-font:                          16px;
-$size-name:                             20px;
-$size-balance-amount:                   48px;
-$size-balance-increase:                 20px;
-$size-commits-view-all:                 12px;
-$size-operation:                        24px;
-$size-latest-projects-content:          14px;
-$size-latest-projects-footer:           12px;
-$size-overview-content-name:            13px;
-$size-overview-section:                 26px;
-$size-overview-tree:                    17px;
-$size-quick-stats-tab-name:             15px;
-$size-quick-stats-tab-amount:           28px;
+$font-xxs:  12px;
+$font-xs:   14px;
+$font-s:    16px;
+$font-m:    20px;
+$font-l:    24px;
+$font-xl:   28px;
+$font-xxl:  48px;
 
 //Margins
+$margin-2px:    2px;
+$margin-10px:   10px;
+$margin-10prc:  10%;/*
 $margin-content:                0 10%;
 $margin-content-xs:             20px 0;
 $margin-tab:                    12px 0;
@@ -59,7 +56,6 @@ $margin-footer-section:         20px 30px 0 0;
 $margin-footer-section-xs:      20px auto;
 $margin-footer-section-xs:      20px auto;
 $margin-header:                 10px 10%;
-$margin-header-xs:              0;
 $margin-header-right-item:      0 32px 0 0;
 $margin-profile-avatar:         0 0 0 10px;
 $margin-navigation:             0 -16px 48;
@@ -79,8 +75,11 @@ $margin-quick-stats-tab-amount: 0 0 20px 20px;
 $margin-quick-stats-tab-percent:4px 0 20px 17px;
 $margin-percentage-paragraph:   0 -50% 0 0;
 $margin-quick-stats-tab-:       9px 0;
+*/
 
 //Paddings
+$padding-2px:  2px;
+$padding-10px: 10px;/*
 $padding-dashboard-name:                    24px;
 $padding-tab:                               0 0 24px 0;
 $padding-chart-position:                    18px 20px;
@@ -105,9 +104,13 @@ $padding-overview-name:                     0 0 16px 0;
 $padding-overview-content-name:             15px 0 0 0;
 $padding-overview-section:                  4px 0 0 0;
 $padding-quick-stats-tab-name:              20px 20px 16px 20px;
-$padding-announcement-image:                0 12px;
+$padding-announcement-image:                0 12px; */
 
 //Widths
+$width-2px:     2px;
+$width-10px:    10px;
+$width-2prc:    2%;
+$width-10prc:   10%;/*
 $width-full:                        100%;
 $width-23:                          23%;
 $width-30:                          30%;
@@ -128,9 +131,14 @@ $width-balance-increase:            118px;
 $width-header-logo:                 64px;
 $width-header-menu:                 20px;
 $width-projection-rev-dot:          10px;
-$width-quick-stats-tab-percent:     57px;
+$width-quick-stats-tab-percent:     57px; */
 
 //Heights
+$height-2px:     2px;
+$height-10px:    10px;
+$height-2prc:    2%;
+$height-10prc:   10%;/*
+
 $height-balance-before-now:     81px;
 $height-balance-increase:       38px;
 $height-footer:                 60px;
@@ -149,15 +157,18 @@ $height-40:                     40%;
 $height-70:                     70%;
 $height-quick-stats-tab-percent:24px;
 $height-visitors-xs:            358px;
-$height-chart-container-2:      220px;
+$height-chart-container-2:      220px; */
 
 //Borders-radius
+$border-radius-2px:     2px;
+$border-radius-10px:    10px;
+$border-radius-10prc:   10%;/*
+
 $border-radius:                     19px;
 $border-radius-projection:          4px;
 $border-projection-rev-dot:         50%;
 $border-quick-stats-tab-percent:    12px;
-$border:                            0;
-$border-progress:                   30px;
+$border-progress:                   30px; */
 
 //== Media queries breakpoints
 // Extra small screen / phone
