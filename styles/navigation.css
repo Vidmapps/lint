@@ -103,3 +103,9 @@
 .nav-content-hidden-block {
   height: 42px;
 }
+
+@media (min-width: 640px) {
+  .nav-content-hidden-block {
+    display: none;
+  }
+}
