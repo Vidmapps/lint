@@ -40,9 +40,16 @@ $font-xl:   28px;
 $font-xxl:  48px;
 
 //Margins
-$margin-2px:    2px;
-$margin-10px:   10px;
-$margin-10prc:  10%;/*
+$margin-xxs:        4px;
+$margin-xs:         8px;
+$margin-s:          12px;
+$margin-m:          16px;
+$margin-l:          20px;
+$margin-xl:         24px;
+$margin-xxl:        30px;
+$margin-relative:   10%;
+
+/*
 $margin-content:                0 10%;
 $margin-content-xs:             20px 0;
 $margin-tab:                    12px 0;
@@ -78,8 +85,15 @@ $margin-quick-stats-tab-:       9px 0;
 */
 
 //Paddings
-$padding-2px:  2px;
-$padding-10px: 10px;/*
+$padding-xxs:    4px;
+$padding-xs:     8px;
+$padding-s:      12px;
+$padding-m:      16px;
+$padding-l:      20px;
+$padding-xl:     24px;
+$padding-xxl:    59px;
+
+/*
 $padding-dashboard-name:                    24px;
 $padding-tab:                               0 0 24px 0;
 $padding-chart-position:                    18px 20px;
@@ -107,10 +121,25 @@ $padding-quick-stats-tab-name:              20px 20px 16px 20px;
 $padding-announcement-image:                0 12px; */
 
 //Widths
-$width-2px:     2px;
-$width-10px:    10px;
-$width-2prc:    2%;
-$width-10prc:   10%;/*
+$width-xxs:    10px;
+$width-xs:     20px;
+$width-s:      57px;
+$width-m:      64px;
+$width-l:      118px;
+$width-xl:     180px;
+$width-xxl:    200px;
+
+$width-relative-smallest:   23%;
+$width-relative-xxs:        30%;
+$width-relative-xs:         39%;
+$width-relative-s:          45%;
+$width-relative-m:          52%;
+$width-relative-l:          58%;
+$width-relative-xl:         65%;
+$width-relative-xxl:        90%;
+$width-relative-biggest:    95%;
+
+/*
 $width-full:                        100%;
 $width-23:                          23%;
 $width-30:                          30%;
@@ -134,10 +163,21 @@ $width-projection-rev-dot:          10px;
 $width-quick-stats-tab-percent:     57px; */
 
 //Heights
-$height-2px:     2px;
-$height-10px:    10px;
-$height-2prc:    2%;
-$height-10prc:   10%;/*
+$height-smallest:  10px;
+$height-xxs:       14px;
+$height-xs:        36px;
+$height-s:         42px;
+$height-m:         50px;
+$height-l:         56px;
+$height-xl:        260px;
+$height-xxl:       420px;
+$height-biggest:   95%;
+
+$height-relative-s: 34%;
+$height-relative-m: 40%;
+$height-relative-l: 70%;
+
+/*
 
 $height-balance-before-now:     81px;
 $height-balance-increase:       38px;
@@ -160,6 +200,13 @@ $height-visitors-xs:            358px;
 $height-chart-container-2:      220px; */
 
 //Borders-radius
+$border-radius-s:         4px;
+$border-radius-m:         12px;
+$border-radius-l:         19px;
+$border-radius-xl:        30px;
+
+$border-radius-relative:  50%;
+
 $border-radius-2px:     2px;
 $border-radius-10px:    10px;
 $border-radius-10prc:   10%;/*
