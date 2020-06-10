@@ -1,0 +1,193 @@
+@import "variables";
+
+* {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: $font-main;
+}
+
+.hover-color:hover {
+  color: $color-hover;
+}
+
+.color-dark {
+  color: $color-dark;
+}
+
+.color-light {
+  color: $color-light;
+}
+
+.canvasjs-chart-credit {
+  position: initial !important;
+}
+
+.hider2 {
+  width: $width-m;//70px;
+  height: $height-xs;//35px;
+  background-color: $color-tab-background;
+  position: absolute;
+}
+
+.hider {
+  width: $width-relative-m;//50px;
+  height: $height-xs;//30px;
+  background-color: $color-tab-background;
+  position: absolute;
+}
+
+.background-color {
+  background-color: #212938;
+}
+
+.font-color {
+  color: $color-main-font;
+}
+
+.tab-background-color {
+  background-color: $color-tab-background;
+}
+
+.tab-background-color-blue {
+  background-image: linear-gradient(126deg, #1d74a3, #3491f8 100%);
+}
+
+.percentage-color {
+  color: $color-white;
+}
+
+.smaller-font {
+  font-size: $font-s;
+}
+
+.tab-name-size {
+  font-size: $font-m;
+}
+
+.flex-and-space-between {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+}
+
+.flex-and-space-evenly {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-evenly;
+}
+
+.flex-and-center {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.pointer {
+  cursor: pointer;
+}
+
+.pointer:hover {
+  cursor: pointer;
+  opacity: 0.6;
+}
+
+.uppercasing {
+  text-transform: uppercase;
+}
+
+.dashboard-name {
+  font-size: $font-m;
+  padding: $padding-xl;
+}
+
+.content-margin {
+  margin: 0 $margin-relative;
+}
+
+@media (max-width: 640px) {
+  .content-margin {
+    margin: $margin-l 0;
+  }
+}
+
+.tab-structure {
+  padding-bottom: $padding-xl;
+  margin: $margin-s 0;
+  border-radius: $border-radius-s;
+}
+
+@media (max-width: 640px) {
+  .tab-structure {
+    width: 100%;
+    margin: $margin-xxs 0;
+  }
+}
+
+.wrapper {
+  flex-wrap: wrap;
+}
+
+@media (max-width: $screen-xs) {
+  .wrapper {
+    flex-direction: column;
+    flex-wrap: nowrap;
+  }
+
+  .mobile-hide {
+    display: none;
+  }
+
+  .mobile-display {
+    display: initial;
+  }
+}
+
+.warning {
+  margin-left: $margin-m;
+}
+
+.chart-position {
+  padding: $padding-m $padding-l;
+}
+
+.text-padding {
+  padding: $padding-s 0 0 $padding-m;
+}
+
+.color-white {
+  color: $color-white;
+}
+
+.text-blue {
+  color: $color-blue-text;
+}
+
+.color-completed {
+  color: $color-completed;
+}
+
+.color-pending {
+  color: $color-pending;
+}
+
+.color-canceled {
+  color: $color-canceled;
+}
+
+.text-overflow {
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}

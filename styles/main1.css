@@ -1,0 +1,191 @@
+* {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: roboto, sans-serif;
+}
+
+.hover-color:hover {
+  color: #d2ebfc;
+}
+
+.color-dark {
+  color: #67758d;
+}
+
+.color-light {
+  color: #c4cfdd;
+}
+
+.canvasjs-chart-credit {
+  position: initial !important;
+}
+
+.hider2 {
+  width: 64px;
+  height: 36px;
+  background-color: #283040;
+  position: absolute;
+}
+
+.hider {
+  width: 52%;
+  height: 36px;
+  background-color: #283040;
+  position: absolute;
+}
+
+.background-color {
+  background-color: #212938;
+}
+
+.font-color {
+  color: #97a4ba;
+}
+
+.tab-background-color {
+  background-color: #283040;
+}
+
+.tab-background-color-blue {
+  background-image: linear-gradient(126deg, #1d74a3, #3491f8 100%);
+}
+
+.percentage-color {
+  color: #fff;
+}
+
+.smaller-font {
+  font-size: 16px;
+}
+
+.tab-name-size {
+  font-size: 20px;
+}
+
+.flex-and-space-between {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+}
+
+.flex-and-space-evenly {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-evenly;
+}
+
+.flex-and-center {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.pointer {
+  cursor: pointer;
+}
+
+.pointer:hover {
+  cursor: pointer;
+  opacity: 0.6;
+}
+
+.uppercasing {
+  text-transform: uppercase;
+}
+
+.dashboard-name {
+  font-size: 20px;
+  padding: 24px;
+}
+
+.content-margin {
+  margin: 0 10%;
+}
+
+@media (max-width: 640px) {
+  .content-margin {
+    margin: 20px 0;
+  }
+}
+
+.tab-structure {
+  padding-bottom: 24px;
+  margin: 12px 0;
+  border-radius: 4px;
+}
+
+@media (max-width: 640px) {
+  .tab-structure {
+    width: 100%;
+    margin: 4px 0;
+  }
+}
+
+.wrapper {
+  flex-wrap: wrap;
+}
+
+@media (max-width: 640px) {
+  .wrapper {
+    flex-direction: column;
+    flex-wrap: nowrap;
+  }
+
+  .mobile-hide {
+    display: none;
+  }
+
+  .mobile-display {
+    display: initial;
+  }
+}
+
+.warning {
+  margin-left: 16px;
+}
+
+.chart-position {
+  padding: 16px 20px;
+}
+
+.text-padding {
+  padding: 12px 0 0 16px;
+}
+
+.color-white {
+  color: #fff;
+}
+
+.text-blue {
+  color: #3491f8;
+}
+
+.color-completed {
+  color: #56c1ff;
+}
+
+.color-pending {
+  color: #e260fa;
+}
+
+.color-canceled {
+  color: #ef3e26;
+}
+
+.text-overflow {
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
