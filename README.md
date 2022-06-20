@@ -10,5 +10,4 @@ This is the project (dashboard) to learn **Front-end** without step by step guid
 
 ## How it works
 1. Download the whole project from Github.
-2. Install NodeJS packages by using `npm install`.
-3. Click `index.html` in file in browser to run in your internet browser.
+2. Click `index.html` in file in browser to run in your internet browser.
