@@ -1,13 +1,14 @@
 # Lint
 
-This is the project (dashboard) to learn **Front-end** without step by step guides. This is the [link](https://photos.app.goo.gl/Gw5TTviUzvwcZPso9) to the project design.
+![image](https://user-images.githubusercontent.com/58663418/174724846-f2b0f89b-e099-42cf-8aa1-931fd36808dd.png)
 
-## Technologies used:
- - **NodeJS** - platform to run JS outside the browser;
- - **Git & GitHub** - project repository;
+## About The Project
+
+This is the project (static-responsive dashboard) to learn **Front-end** without step by step guides. This is the [link](https://photos.app.goo.gl/Gw5TTviUzvwcZPso9) to the project design.
+
+### Installation
+
+* double-click `index.html`
+
+### Built With
  - **CanvasJS** - library to create animated graphs.
-
-
-## How it works
-1. Download the whole project from Github.
-2. Click `index.html` in file in browser to run in your internet browser.
