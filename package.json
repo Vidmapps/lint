@@ -10,7 +10,7 @@
   "license": "ISC",
   "dependencies": {
     "jQuery": "^1.7.4",
-    "jsdom": "^16.1.0"
+    "jsdom": "^16.5.0"
   },
   "devDependencies": {
     "eslint": "^6.8.0",
